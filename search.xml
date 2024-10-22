@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>A taste to slurm</title>
-    <url>/project/2024/10/21/A%20taste%20to%20slurm/</url>
+    <url>/2024/10/21/A%20taste%20to%20slurm/</url>
     <content><![CDATA[<p>What is slurm?</p>
 <p>SLURM (Simple Linux Utility for Resource Management) is an open-source job scheduler for Linux and Unix-like operating systems. It is widely used in high-performance computing (HPC) environments to manage and allocate resources such as CPU, memory, and storage to various jobs or tasks submitted by users. SLURM allows for efficient utilization of computational resources, ensuring that jobs are executed in a timely and orderly manner.</p>
 <p>Check <a class="link"   href="https://slurm.schedmd.com/documentation.html" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. </p>
