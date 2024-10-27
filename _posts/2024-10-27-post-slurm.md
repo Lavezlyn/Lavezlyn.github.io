@@ -6,15 +6,17 @@ categories:
 tags:
   - slurm
   - machine learning
+toc: true
+toc_sticky: true
 ---
 
-What is slurm? SLURM (Simple Linux Utility for Resource Management) is an open-source job scheduler for Linux and Unix-like operating systems. It is widely used in high-performance computing (HPC) environments to manage and allocate resources such as CPU, memory, and storage to various jobs or tasks submitted by users. SLURM allows for efficient utilization of computational resources, ensuring that jobs are executed in a timely and orderly manner.
+What is slurm? **SLURM** (Simple Linux Utility for Resource Management) is an open-source job scheduler for Linux and Unix-like operating systems. It is widely used in high-performance computing (HPC) environments to manage and allocate resources such as CPU, memory, and storage to various jobs or tasks submitted by users. SLURM allows for efficient utilization of computational resources, ensuring that jobs are executed in a timely and orderly manner.
 
 Check [documentation](https://slurm.schedmd.com/documentation.html) for more info. 
 
-Recently I am fine-tuning some transformer models on [Multi-NLI](https://huggingface.co/datasets/nyu-mll/multi_nli) dataset. At first I was troubled by limited computational resources I could access. Then it dawned on me that I could take advantage of clusters provided for AI students, after all, an RTX-3090 might be a good rescue.
+Recently I am fine-tuning some transformer models on [Multi-NLI](https://huggingface.co/datasets/nyu-mll/multi_nli) dataset. :hugging: At first I was troubled by limited computational resources I could access. Then it dawned on me that I could take advantage of clusters provided for AI students, after all, an RTX-3090 might be a good rescue. :thinking:
 
-However, beginners are often time clumsy when it comes to building conda environments, debugging on virtual machines, allocating resources and supervising training process. Things do get ugly!
+However, beginners are often time clumsy when it comes to building conda environments, debugging on virtual machines, allocating resources and supervising training process. Things do get ugly! :dizzy_face:
 
 Let's check out what I have learned. Hope this article can serve as a quick and convenient intro to hands-on training experience with slurm.
 
@@ -71,7 +73,7 @@ Then run the following command.
 $ sbatch run.sh
 ```
 
-Congrats! You are done!
+Congrats! You are done! :blush:
 
 ### Takeaway
 
@@ -85,11 +87,15 @@ Congrats! You are done!
 * Run jobs on multiple clusters.
 
 ### More Info
+
 #### Slurm
-1. https://researchcomputing.princeton.edu/support/knowledge-base/pytorch 
-2. http://faculty.bicmr.pku.edu.cn/~wenzw/pages/slurm.html
-3. https://docs.hpc.sjtu.edu.cn/index.html
+
+* https://researchcomputing.princeton.edu/support/knowledge-base/pytorch 
+* http://faculty.bicmr.pku.edu.cn/~wenzw/pages/slurm.html
+* https://docs.hpc.sjtu.edu.cn/index.html
+
 #### Pytorch with slurm 
-1. [Overview](https://pytorch.org/tutorials/beginner/ddp_series_intro.html)
-2. [Single-node-multiple-GPU DDP](https://pytorch.org/tutorials/beginner/ddp_series_multigpu.html)
-3. [Multiple nodes](https://pytorch.org/tutorials/intermediate/ddp_series_multinode.html)
+
+* [Overview](https://pytorch.org/tutorials/beginner/ddp_series_intro.html)
+* [Single-node-multiple-GPU DDP](https://pytorch.org/tutorials/beginner/ddp_series_multigpu.html)
+* [Multiple nodes](https://pytorch.org/tutorials/intermediate/ddp_series_multinode.html)
