@@ -12,9 +12,11 @@ toc_sticky: true
 
 What is slurm? **SLURM** (Simple Linux Utility for Resource Management) is an open-source job scheduler for Linux and Unix-like operating systems. It is widely used in high-performance computing (HPC) environments to manage and allocate resources such as CPU, memory, and storage to various jobs or tasks submitted by users. SLURM allows for efficient utilization of computational resources, ensuring that jobs are executed in a timely and orderly manner.
 
+<!--more-->
+
 Check [documentation](https://slurm.schedmd.com/documentation.html) for more info. 
 
-Recently I am fine-tuning some transformer models on [Multi-NLI](https://huggingface.co/datasets/nyu-mll/multi_nli) dataset. :hugging: At first I was troubled by limited computational resources I could access. Then it dawned on me that I could take advantage of clusters provided for AI students, after all, an RTX-3090 might be a good rescue. :thinking:
+Recently I am fine-tuning some transformer models on [Multi-NLI](https://huggingface.co/datasets/nyu-mll/multi_nli) dataset. :hugs: At first I was troubled by limited computational resources I could access. Then it dawned on me that I could take advantage of clusters provided for AI students, after all, an RTX-3090 might be a good rescue. :thinking:
 
 However, beginners are often time clumsy when it comes to building conda environments, debugging on virtual machines, allocating resources and supervising training process. Things do get ugly! :dizzy_face:
 
@@ -81,20 +83,20 @@ Congrats! You are done! :blush:
 * Debug on small subset of the dataset, ensure your codes are error-free before submission.
 * Use tools such as WandB to log and plot training metrics, as well as monitor your progress conveniently.
 
-### More to learn
+## More to learn
 
 * Files transfer, use ```scp``` or ```rsync```.
 * Run jobs on multiple clusters.
 
-### More Info
+## More Info
 
-#### Slurm
+### Slurm
 
 * https://researchcomputing.princeton.edu/support/knowledge-base/pytorch 
 * http://faculty.bicmr.pku.edu.cn/~wenzw/pages/slurm.html
 * https://docs.hpc.sjtu.edu.cn/index.html
 
-#### Pytorch with slurm 
+### Pytorch with slurm 
 
 * [Overview](https://pytorch.org/tutorials/beginner/ddp_series_intro.html)
 * [Single-node-multiple-GPU DDP](https://pytorch.org/tutorials/beginner/ddp_series_multigpu.html)
