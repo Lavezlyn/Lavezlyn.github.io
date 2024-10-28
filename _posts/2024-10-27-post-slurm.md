@@ -8,6 +8,7 @@ tags:
   - machine learning
 toc: true
 toc_sticky: true
+comments: true
 ---
 
 What is slurm? **SLURM** (Simple Linux Utility for Resource Management) is an open-source job scheduler for Linux and Unix-like operating systems. It is widely used in high-performance computing (HPC) environments to manage and allocate resources such as CPU, memory, and storage to various jobs or tasks submitted by users. SLURM allows for efficient utilization of computational resources, ensuring that jobs are executed in a timely and orderly manner.
