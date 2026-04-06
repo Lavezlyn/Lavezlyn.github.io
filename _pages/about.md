@@ -26,7 +26,7 @@ latest_posts:
 
 I am an undergraduate student at [Peking University](https://www.pku.edu.cn/), majoring in Artificial Intelligence in the [Yuanpei Honors College](https://yuanpei.pku.edu.cn/). I am a member of the [PKU Alignment Group](https://github.com/PKU-Alignment), advised by [Prof. Yaodong Yang](https://www.yangyaodong.com/).
 
-My research focuses on the **trustworthiness of multimodal AI systems**, with an emphasis on truthfulness evaluation, deception detection, and alignment. I have proposed [TruthfulVQA](https://arxiv.org/abs/2505.20214), the first benchmark for multimodal truthfulness, and [MM-DeceptionBench](https://arxiv.org/abs/2512.00349), the first benchmark for detecting deceptive behaviors in multimodal LLMs.
+My research focuses on the **trustworthiness of multimodal AI systems**, with an emphasis on truthfulness evaluation, deception detection, and alignment. I have proposed [TruthfulVQA](https://truthfulvqa.github.io/), the first benchmark for multimodal truthfulness, and [MM-DeceptionBench](https://mm-deception.github.io/), the first benchmark for detecting deceptive behaviors in multimodal LLMs.
 
 I have published at top AI venues including **ACL** and **ICML** (under review), with two first-author papers as an undergraduate.
 

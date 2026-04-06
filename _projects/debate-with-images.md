@@ -13,7 +13,8 @@ category: research
 
 **Under Review at ICML 2026**
 
-[Paper](https://arxiv.org/abs/2512.00349){: .btn .btn-primary}
+[Project Page](https://mm-deception.github.io/){: .btn .btn-primary}
+[Paper](https://arxiv.org/abs/2512.00349){: .btn .btn-secondary}
 [Code](https://github.com/PKU-Alignment/MM-DeceptionBench){: .btn .btn-secondary}
 
 ---

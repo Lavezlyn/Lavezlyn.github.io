@@ -13,7 +13,8 @@ category: research
 
 **ACL 2026 Main Conference**
 
-[Paper](https://arxiv.org/abs/2505.20214){: .btn .btn-primary}
+[Project Page](https://truthfulvqa.github.io/){: .btn .btn-primary}
+[Paper](https://arxiv.org/abs/2505.20214){: .btn .btn-secondary}
 [Code](https://github.com/PKU-Alignment/TruthfulVQA){: .btn .btn-secondary}
 
 ---
