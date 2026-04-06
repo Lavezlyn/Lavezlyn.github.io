@@ -9,9 +9,10 @@ nav_order: 6
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: true
   more_info: >
+    <p>方思童</p>
     <p>北京</p>
     <p>AI 安全与对齐</p>
 

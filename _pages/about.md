@@ -7,9 +7,10 @@ subtitle: >
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: true
   more_info: >
+    <p>方思童</p>
     <p>Beijing, China</p>
     <p>AI Safety & Alignment</p>
 
