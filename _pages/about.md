@@ -2,33 +2,74 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  Undergraduate Student, <a href="https://yuanpei.pku.edu.cn/">Yuanpei College</a>, <a href="https://www.pku.edu.cn/">Peking University</a>
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Beijing, China</p>
+    <p>AI Safety & Alignment</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an undergraduate student at [Peking University](https://www.pku.edu.cn/), majoring in Artificial Intelligence in the [Yuanpei Honors College](https://yuanpei.pku.edu.cn/). I am a member of the [PKU Alignment Group](https://github.com/PKU-Alignment), advised by [Prof. Yaodong Yang](https://www.yangyaodong.com/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on the **trustworthiness of multimodal AI systems**, with an emphasis on truthfulness evaluation, deception detection, and alignment. I have proposed [TruthfulVQA](https://arxiv.org/abs/2505.20214), the first benchmark for multimodal truthfulness, and [MM-DeceptionBench](https://arxiv.org/abs/2512.00349), the first benchmark for detecting deceptive behaviors in multimodal LLMs.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have published at top AI venues including **ACL** and **ICML** (under review), with two first-author papers as an undergraduate.
+
+## News
+
+- *2026.01*: One paper accepted at **ACL 2026** Main Conference.
+- *2025.12*: One paper submitted to **ICML 2026**.
+- *2025.11*: Our survey [AI Deception](https://arxiv.org/abs/2511.22619) released -- the first systematic international report on AI deception (59 co-authors).
+- *2025.10*: [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) open-sourced at PKU-Alignment.
+- *2024.12*: Awarded Beijing Natural Science Foundation Undergraduate "QiYan" Research Program Grant.
+
+## Honors and Awards
+
+- *2025* &nbsp; Yuanpei Young Scholar (元培青年学者, Top 10 across all grades)
+- *2025* &nbsp; Soong Ching Ling Future Scholarship (宋庆龄未来助学金)
+- *2025* &nbsp; Beijing Natural Science Foundation Undergraduate "QiYan" Research Program (北京市自然科学基金本科生"启研"计划)
+- *2024* &nbsp; Peking University Boya Scholarship
+- *2024* &nbsp; Peking University CMSC Scholarship (招商证券奖学金)
+- *2024* &nbsp; Academic Excellence Award
+- *2024* &nbsp; Social Service Award
+- *2023* &nbsp; Peking University Freshman Scholarship (First Prize)
+- *2023* &nbsp; Provincial Top 1, National College Entrance Exam (Science)
+
+## Selected Publications
+
+<div class="publications">
+{% bibliography --query @*[selected=true] %}
+</div>
+
+## Experiences
+
+<div class="experience-item" style="margin-bottom: 1rem;">
+<strong>HKGAI R&D Center / HKUST</strong><br>
+Contributed to <strong>HKGAI-V1</strong>, the Hong Kong government's first locally fine-tuned generative AI model based on DeepSeek. Supports Cantonese, Mandarin, and English with localized safety alignment. Received recognition certificate from HKUST and HKGAI R&D Center.
+</div>
+
+<div class="experience-item" style="margin-bottom: 1rem;">
+<strong>PKU-Alignment, Peking University</strong> — Core Contributor<br>
+<ul>
+<li><a href="https://github.com/PKU-Alignment/align-anything">Align-Anything</a> (4.6k+ ★) — All-modality alignment framework</li>
+<li><a href="https://github.com/PKU-Alignment/eval-anything">Eval-Anything</a> — All-modality safety evaluation framework</li>
+</ul>
+</div>
+
+## Educations
+
+- *2023 - Present* &nbsp; B.S. in Artificial Intelligence, Yuanpei Honors College, Peking University
