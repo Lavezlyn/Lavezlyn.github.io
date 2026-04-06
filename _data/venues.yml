@@ -2,7 +2,15 @@ ACL:
   url: https://aclanthology.org/
   color: "#1a5276"
 
+ACL 2026:
+  url: https://aclanthology.org/
+  color: "#1a5276"
+
 ICML:
+  url: https://icml.cc/
+  color: "#7d3c98"
+
+ICML 2026:
   url: https://icml.cc/
   color: "#7d3c98"
 
@@ -13,6 +21,9 @@ NeurIPS:
 ICLR:
   url: https://iclr.cc/
   color: "#27ae60"
+
+Under Review:
+  color: "#7f8c8d"
 
 Preprint:
   color: "#7f8c8d"

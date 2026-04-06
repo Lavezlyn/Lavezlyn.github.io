@@ -11,10 +11,6 @@ profile:
   align: left
   image: prof_pic.png
   image_circular: true
-  more_info: >
-    <p>方思童</p>
-    <p>北京</p>
-    <p>AI 安全与对齐</p>
 
 selected_papers: false
 social: true
@@ -42,9 +38,9 @@ latest_posts:
 
 ## 荣誉与奖项
 
-- _2025_ &nbsp; 元培青年学者（全年级仅 10 人）
+- _2025_ &nbsp; 元培青年学者（全学院仅 10 人）
 - _2025_ &nbsp; 宋庆龄未来助学金
-- _2025_ &nbsp; 北京市自然科学基金本科生"启研"计划
+- _2025_ &nbsp; 受北京市自然科学基金本科生"启研"计划资助 (2023级人工智能方向本科生唯一)
 - _2024_ &nbsp; 北京大学博雅奖学金
 - _2024_ &nbsp; 北京大学招商证券奖学金
 - _2024_ &nbsp; 学习优秀奖
