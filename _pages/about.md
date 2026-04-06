@@ -34,7 +34,7 @@ I have two first-author papers as an undergraduate, one published at **ACL 2026*
 
 - *2026.01*: One paper accepted at **ACL 2026** Main Conference.
 - *2025.12*: One paper submitted to **ICML 2026**.
-- *2025.11*: Our survey [AI Deception](https://arxiv.org/abs/2511.22619) released -- the first systematic international report on AI deception (59 co-authors).
+- *2025.11*: Our survey [AI Deception](https://arxiv.org/abs/2511.22619) released -- the first systematic international report on AI deception, with Turing Award laureate Andrew Yao as the last author (59 co-authors).
 - *2025.10*: [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) open-sourced at PKU-Alignment.
 - *2024.12*: Awarded Beijing Natural Science Foundation Undergraduate "QiYan" Research Program Grant.
 

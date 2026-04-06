@@ -36,7 +36,7 @@ latest_posts:
 
 - *2026.01*: 一篇论文被 **ACL 2026** 主会录用。
 - *2025.12*: 一篇论文投稿至 **ICML 2026**。
-- *2025.11*: 国际 AI 欺骗系统性报告 [AI Deception](https://arxiv.org/abs/2511.22619) 发布，59 位共同作者。
+- *2025.11*: 国际 AI 欺骗系统性报告 [AI Deception](https://arxiv.org/abs/2511.22619) 发布，图灵奖得主姚期智院士为底作，共 59 位作者。
 - *2025.10*: [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) 在 PKU-Alignment 开源。
 - *2024.12*: 获北京市自然科学基金本科生"启研"计划资助。
 
