@@ -1,0 +1,166 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setCJKmainfont[
+  Path=/mnt/users/sitong/.local/share/fonts/,
+  Extension=.otf,
+  BoldFont=NotoSerifSC-Bold,
+]{NotoSerifSC-Regular}
+\usepackage[margin=1.6cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+
+% Colors
+\definecolor{linkblue}{HTML}{0645AD}
+\definecolor{rulecolor}{HTML}{333333}
+
+% Hyperlink style
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkblue,
+  urlcolor=linkblue,
+  pdfauthor={方思童},
+  pdftitle={简历 -- 方思童}
+}
+
+% Section formatting: bold title with horizontal rule
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{0.2em}\titlerule\vspace{0.2em}]
+\titlespacing*{\section}{0pt}{0.7em}{0.3em}
+
+% No page numbers
+\pagestyle{empty}
+
+% Compact lists
+\setlist[itemize]{leftmargin=1.5em, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+% Shorthand for my name (underlined)
+\newcommand{\me}{\uline{Sitong Fang}}
+
+% Publication entry: title on left, venue+link on right
+\newcommand{\pubentry}[3]{%
+  \noindent\begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{#1} & #2\enspace\href{#3}{\faFilePdf} \\
+  \end{tabularx}\vspace{-2pt}%
+}
+
+% Generic entry: left bold + right info
+\newcommand{\cventry}[2]{%
+  \noindent\begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{#1} & {#2} \\
+  \end{tabularx}\vspace{-2pt}%
+}
+
+% Publication venue tag
+\newcommand{\venue}[1]{%
+  \colorbox{gray!15}{\small\textbf{#1}}%
+}
+
+\begin{document}
+
+% ============================================================================
+% Header
+% ============================================================================
+\begin{center}
+  {\LARGE\bfseries 方思童\enspace Sitong Fang} \\[5pt]
+  \faEnvelope~\href{mailto:sitongfang1@gmail.com}{sitongfang1@gmail.com}
+  \quad$\cdot$\quad
+  \faGlobe~\href{https://sitongfang.com}{sitongfang.com}
+  \quad$\cdot$\quad
+  \faGithub~\href{https://github.com/Lavezlyn}{Lavezlyn}
+  \\[4pt]
+  \textit{研究兴趣：可信多模态人工智能、世界模型、人工智能对齐与安全}
+\end{center}
+
+\vspace{-0.4em}
+
+% ============================================================================
+\section{教育背景}
+
+\cventry{北京大学}{学士，2023\,--\,2027（预计）}
+\noindent 元培学院，人工智能专业 \\[2pt]
+\begin{itemize}
+  \item \textbf{个人荣誉：}元培青年学者；博雅奖学金；宋庆龄未来助学金；北京市自然科学基金本科生"启研"计划；新生奖学金（一等）
+  \item \textbf{技术技能：}Python, PyTorch, vLLM, DeepSpeed, Ray, CUDA, C/C++, \LaTeX
+\end{itemize}
+
+% ============================================================================
+\section{学术成果}
+
+\pubentry{When Slower Isn't Truer: Inverse Scaling Law of Truthfulness in Multimodal Reasoning}{\venue{ACL 2026}}{https://arxiv.org/abs/2505.20214}
+\me{},Wenjing Cao, Jiahao Li, Xuyao Wang, Chi-Min Chan, Sirui Han, Juntao Dai, Yike Guo, Yaodong Yang, Jiaming Ji
+\begin{itemize}
+  \item 发现逆缩放定律：更慢的推理模型在多模态场景中反而更不真实。
+  \item 提出 \textbf{TruthfulVQA}，首个多模态真实性评测基准（5,000+图像），以及 \textbf{TruthfulJudge} 人机协同评测框架。
+\end{itemize}
+
+\vspace{0.3em}
+
+\pubentry{Debate with Images: Detecting Deceptive Behaviors in Multimodal LLMs}{\venue{在审}}{https://arxiv.org/abs/2512.00349}
+\me{},Shiyi Hou, Kaile Wang, Boyuan Chen, Donghai Hong, Jiayi Zhou, Juntao Dai, Yaodong Yang, Jiaming Ji
+\begin{itemize}
+  \item 提出 \textbf{MM-DeceptionBench}，首个多模态大模型欺骗行为评测基准。
+  \item 提出 \textbf{Debate with Images}，基于视觉证据的多智能体辩论框架，显著提升欺骗检测准确率。
+\end{itemize}
+
+\vspace{0.3em}
+
+\pubentry{AI Deception: Risks, Dynamics, and Controls}{\venue{在审}}{https://arxiv.org/abs/2511.22619}
+Boyuan Chen*, \me{}*, Jiaming Ji*, \ldots, Yaodong Yang\textsuperscript{\dag}, Tiejun Huang\textsuperscript{\dag}, Ya-Qin Zhang\textsuperscript{\dag}, HongJiang Zhang\textsuperscript{\dag}, Andrew Yao\textsuperscript{\dag}
+\hfill {\small *\,共同贡献 \enspace \dag\,通讯作者}
+\begin{itemize}
+  \item 首篇AI欺骗系统性国际报告（50+位作者），图灵奖得主姚期智院士任通讯作者。投稿至 ACM Computing Surveys。
+  \item 基于信号理论定义AI欺骗，分析欺骗循环机制，提出缓解策略。
+\end{itemize}
+
+% ============================================================================
+\section{科研经历}
+
+\cventry{逆矩阵科技（Physis AI）}{2026.02\,--\,至今}
+\noindent 研究员
+\begin{itemize}
+  \item 世界模型创业公司，致力于构建物理真实的世界基础模型与强化学习。高瓴创投、燕缘创投联合投资。
+\end{itemize}
+
+\vspace{0.3em}
+
+\cventry{北京大学对齐小组（PKU-Alignment）}{2024.12\,--\,至今}
+\noindent 研究实习生 \enspace$\cdot$\enspace 导师：\href{https://www.yangyaodong.com/}{杨耀东助理教授}
+\begin{itemize}
+  \item 主导开发 \textbf{TruthfulVQA}，首个多模态真实性评测基准（ACL 2026）。
+  \item 主导开发 \textbf{Debate with Images}，基于视觉的多智能体辩论欺骗检测框架，以及 \textbf{MM-DeceptionBench}，首个多模态欺骗评测基准。
+  \item 共同一作 \textbf{AI Deception Survey}，图灵奖得主姚期智院士任通讯作者。
+  \item \href{https://github.com/PKU-Alignment/align-anything}{\textbf{Align-Anything}}（GitHub 4,600+ 星）核心贡献者，全模态对齐框架。
+  \item \href{https://github.com/PKU-Alignment/eval-anything}{\textbf{Eval-Anything}} 核心贡献者，全模态安全评测框架。
+\end{itemize}
+
+\vspace{0.3em}
+
+\cventry{HKGAI研发中心 / 香港科技大学}{2024.12\,--\,2025.03}
+\noindent 研究实习生
+\begin{itemize}
+  \item 参与 \textbf{HKGAI-V1} 开发，香港政府首个基于 DeepSeek 的本地化微调生成式AI模型，支持粤语、普通话和英语，具备本地化安全对齐能力。
+\end{itemize}
+
+% ============================================================================
+\section{荣誉奖项}
+
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l@{\hspace{1em}}X@{}}
+2025 & 元培青年学者 \hfill {\small\textit{仅10人}} \\
+2025 & 北京市自然科学基金本科生"启研"计划 \hfill {\small\textit{年级唯一}} \\
+2025 & 宋庆龄未来助学金 \hfill {\small\textit{全校仅10人}} \\
+2024 & 北京大学博雅奖学金 \\
+2024 & 北京大学招商证券奖学金 \\
+2024 & 北京大学学习优秀奖 \\
+2024 & 北京大学社会工作奖 \\
+2023 & 北京大学新生奖学金（一等） \\
+2023 & 福建省高考理科第一名 \\
+\end{tabularx}
+
+\end{document}
