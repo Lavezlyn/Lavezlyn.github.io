@@ -9,11 +9,13 @@
 ## 1. Goals & Target Audience
 
 ### Primary Goals (ordered by priority)
+
 1. **PhD/Postdoc Applications** — Enable prospective advisors to assess research capability within 30 seconds
 2. **Academic Reputation** — Make publications and contributions easily discoverable by peers and collaborators
 3. **Scholarship/Fellowship Applications** — Present a complete academic profile for reviewers
 
 ### Target Audiences
+
 - Prospective PhD advisors (international)
 - Research collaborators in AI Safety/Alignment
 - Scholarship/fellowship review committees
@@ -23,13 +25,13 @@
 
 ## 2. Technical Stack
 
-| Component | Choice | Rationale |
-|-----------|--------|-----------|
-| Framework | al-folio (Jekyll) | ML community standard, native BibTeX/i18n/project pages |
-| Hosting | GitHub Pages | Free, reliable, custom domain support |
-| Repository | Lavezlyn/Lavezlyn.github.io | Existing GitHub username |
-| Languages | English (primary `/`), Chinese (`/zh/`) | International + domestic audiences |
-| CI/CD | GitHub Actions | Auto-build Jekyll, Google Scholar stats crawler |
+| Component  | Choice                                  | Rationale                                               |
+| ---------- | --------------------------------------- | ------------------------------------------------------- |
+| Framework  | al-folio (Jekyll)                       | ML community standard, native BibTeX/i18n/project pages |
+| Hosting    | GitHub Pages                            | Free, reliable, custom domain support                   |
+| Repository | Lavezlyn/Lavezlyn.github.io             | Existing GitHub username                                |
+| Languages  | English (primary `/`), Chinese (`/zh/`) | International + domestic audiences                      |
+| CI/CD      | GitHub Actions                          | Auto-build Jekyll, Google Scholar stats crawler         |
 
 ---
 
@@ -40,12 +42,14 @@
 Layout reference: [cby-pku.github.io](https://cby-pku.github.io/)
 
 **Two-column layout (~25/75 split):**
+
 - **Left column (profile sidebar)**: Circular photo, name, affiliation, research keywords, location, social icon links
 - **Right column (main content)**: Bio, News, Awards, Publications, Experiences, Educations
 
 Sections in order:
 
 #### Left Column (Profile Sidebar)
+
 - Circular professional photo (`cv_photo.png`)
 - Name: **Sitong Fang** (方思童)
 - Title: Undergraduate Student
@@ -59,6 +63,7 @@ Sections in order:
 #### Bio (Bilingual)
 
 **English:**
+
 > I am an undergraduate student at Peking University, majoring in Artificial Intelligence in the Yuanpei Honors College. I am a member of the PKU Alignment Group, advised by Prof. Yaodong Yang.
 >
 > My research focuses on the trustworthiness of multimodal AI systems, with an emphasis on truthfulness evaluation, deception detection, and alignment. I have proposed TruthfulVQA, the first benchmark for multimodal truthfulness, and MM-DeceptionBench, the first benchmark for detecting deceptive behaviors in multimodal LLMs.
@@ -68,6 +73,7 @@ Sections in order:
 **Chinese:** Parallel translation with additional context for domestic awards.
 
 #### News (5-8 items)
+
 ```
 - [2026.01] One paper accepted at ACL 2026 Main Conference!
 - [2025.xx] One paper submitted to ICML 2026.
@@ -82,21 +88,22 @@ Sections in order:
 
 Format: year (italicized) at the front, award name follows. Ordered by year descending, then by prestige within the same year. Matches [cby-pku.github.io](https://cby-pku.github.io/) style.
 
-- *2025* Yuanpei Young Scholar (元培青年学者, Top 10 across all grades)
-- *2025* Soong Ching Ling Future Scholarship (宋庆龄未来助学金)
-- *2025* Beijing Natural Science Foundation Undergraduate "QiYan" Research Program (北京市自然科学基金本科生"启研"计划)
-- *2024* Peking University Boya Scholarship
-- *2024* Peking University CMSC Scholarship
-- *2024* Academic Excellence Award
-- *2024* Social Service Award
-- *2023* Peking University Freshman Scholarship (First Prize)
-- *2023* Provincial Top 1, National College Entrance Exam (Science)
+- _2025_ Yuanpei Young Scholar (元培青年学者, Top 10 across all grades)
+- _2025_ Soong Ching Ling Future Scholarship (宋庆龄未来助学金)
+- _2025_ Beijing Natural Science Foundation Undergraduate "QiYan" Research Program (北京市自然科学基金本科生"启研"计划)
+- _2024_ Peking University Boya Scholarship
+- _2024_ Peking University CMSC Scholarship
+- _2024_ Academic Excellence Award
+- _2024_ Social Service Award
+- _2023_ Peking University Freshman Scholarship (First Prize)
+- _2023_ Provincial Top 1, National College Entrance Exam (Science)
 
 Note: Years above are placeholders — confirm exact years with user during implementation.
 
 #### Selected Publications (2-3 representative papers)
 
 Display format per paper:
+
 - Conference badge (colored label: ACL blue, ICML purple)
 - Teaser/thumbnail image
 - Title
@@ -106,16 +113,19 @@ Display format per paper:
 - First-author papers marked with ★
 
 Papers to feature:
+
 1. ★ **When Slower Isn't Truer: Inverse Scaling Law of Truthfulness in Multimodal Reasoning** — ACL 2026 Main
 2. ★ **Debate with Images: Detecting Deceptive Behaviors in Multimodal Large Language Models** — Under Review at ICML 2026
 
 #### Experiences
+
 1. **HKGAI R&D Center / HKUST** — Contributed to HKGAI-V1, the Hong Kong government's first locally fine-tuned generative AI model based on DeepSeek. Supports Cantonese, Mandarin, and English with localized safety alignment. Received recognition certificate from HKUST and HKGAI R&D Center.
 2. **PKU-Alignment, Peking University** — Core contributor to open-source projects:
    - Align-Anything (4.6k+ ★) — All-modality alignment framework
    - Eval-Anything — All-modality safety evaluation framework
 
 #### Educations
+
 - B.S. in Artificial Intelligence, Yuanpei Honors College, Peking University, 2023 – Present
 
 ### 3.2 Publications Page (`/publications/`)
@@ -130,10 +140,12 @@ Papers to feature:
 **Papers:**
 
 [2026]
+
 - ★ When Slower Isn't Truer: Inverse Scaling Law of Truthfulness in Multimodal Reasoning. **Sitong Fang**, Wenjing Cao, Jiahao Li, Xuyao Wang, Chi-Min Chan, Sirui Han, Juntao Dai, Yike Guo, Yaodong Yang, Jiaming Ji. **ACL 2026 Main Conference**.
 - ★ Debate with Images: Detecting Deceptive Behaviors in Multimodal Large Language Models. **Sitong Fang**, Shiyi Hou, Kaile Wang, Boyuan Chen, Donghai Hong, Jiayi Zhou, Juntao Dai, Yaodong Yang, Jiaming Ji. **Under Review at ICML 2026**.
 
 [2025]
+
 - AI Deception: Risks, Dynamics, and Controls. Boyuan Chen\*, **Sitong Fang**\*, Jiaming Ji\*, ... (59 authors). Preprint.
 - Mitigating Deceptive Alignment via Self-Monitoring. Jiaming Ji\*, Wenqi Chen\*, Kaile Wang\*, Donghai Hong, **Sitong Fang**, Boyuan Chen, Jiayi Zhou, Juntao Dai, Sirui Han, Yike Guo, Yaodong Yang. Preprint.
 
@@ -142,6 +154,7 @@ Papers to feature:
 One page per first-author paper:
 
 **`/projects/truthfulvqa/`** (When Slower Isn't Truer)
+
 - Teaser figure (large, visual impact)
 - TL;DR (one sentence)
 - Abstract
@@ -151,6 +164,7 @@ One page per first-author paper:
 - Links: [Paper PDF] [Code] [Dataset] [Slides]
 
 **`/projects/debate-with-images/`** (Debate with Images)
+
 - Same structure
 - Highlight: MM-DeceptionBench benchmark + multi-agent debate framework
 
@@ -164,28 +178,28 @@ One page per first-author paper:
 
 ## 4. Bilingual Strategy
 
-| Aspect | Approach |
-|--------|----------|
-| Primary language | English (`/`) |
-| Chinese path | `/zh/` via al-folio `_i18n/` |
-| Switch UI | Language toggle button in navbar (top-right) |
-| Translated content | Bio, News, Awards, Experiences, Educations |
-| English-only content | Publications (titles, abstracts), Project Pages |
-| Chinese extras | Full Chinese names for domestic awards, 元培青年学者 context |
+| Aspect               | Approach                                                     |
+| -------------------- | ------------------------------------------------------------ |
+| Primary language     | English (`/`)                                                |
+| Chinese path         | `/zh/` via al-folio `_i18n/`                                 |
+| Switch UI            | Language toggle button in navbar (top-right)                 |
+| Translated content   | Bio, News, Awards, Experiences, Educations                   |
+| English-only content | Publications (titles, abstracts), Project Pages              |
+| Chinese extras       | Full Chinese names for domestic awards, 元培青年学者 context |
 
 ---
 
 ## 5. Visual Design
 
-| Element | Specification |
-|---------|---------------|
-| Color scheme | al-folio default (clean, muted) with minor accent customization |
-| Typography | al-folio default (professional serif/sans-serif) |
-| Photo | `cv_photo.png` — professional headshot, navy blouse, neutral background |
-| Conference badges | Colored labels: ACL (blue), ICML (purple), Preprint (gray) |
-| Paper thumbnails | Teaser figures from each paper |
-| Responsive | al-folio native responsive design |
-| Dark mode | al-folio native dark mode toggle |
+| Element           | Specification                                                           |
+| ----------------- | ----------------------------------------------------------------------- |
+| Color scheme      | al-folio default (clean, muted) with minor accent customization         |
+| Typography        | al-folio default (professional serif/sans-serif)                        |
+| Photo             | `cv_photo.png` — professional headshot, navy blouse, neutral background |
+| Conference badges | Colored labels: ACL (blue), ICML (purple), Preprint (gray)              |
+| Paper thumbnails  | Teaser figures from each paper                                          |
+| Responsive        | al-folio native responsive design                                       |
+| Dark mode         | al-folio native dark mode toggle                                        |
 
 ---
 
