@@ -28,7 +28,7 @@ I am an undergraduate student at [Peking University](https://www.pku.edu.cn/), m
 
 My research focuses on the **trustworthiness of multimodal AI systems**, with an emphasis on truthfulness evaluation, deception detection, and alignment. I have proposed [TruthfulVQA](https://truthfulvqa.github.io/), the first benchmark for multimodal truthfulness, and [MM-DeceptionBench](https://mm-deception.github.io/), the first benchmark for detecting deceptive behaviors in multimodal LLMs.
 
-I have two first-author papers as an undergraduate, one published at **ACL 2026** and one under review at **ICML 2026**.
+I have two first-author papers as an undergraduate, one published at **ACL 2026** and one under review at **ICML 2026**. I am also a co-first author of the [AI Deception Survey](https://arxiv.org/abs/2511.22619), the first systematic international report on AI deception.
 
 ## News
 
