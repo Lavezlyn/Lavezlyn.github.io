@@ -28,7 +28,7 @@ I am an undergraduate student at [Peking University](https://www.pku.edu.cn/), m
 
 My research focuses on the **trustworthiness of multimodal AI systems**, with an emphasis on truthfulness evaluation, deception detection, and alignment. I have proposed [TruthfulVQA](https://truthfulvqa.github.io/), the first benchmark for multimodal truthfulness, and [MM-DeceptionBench](https://mm-deception.github.io/), the first benchmark for detecting deceptive behaviors in multimodal LLMs.
 
-I have published at top AI venues including **ACL** and **ICML** (under review), with two first-author papers as an undergraduate.
+I have two first-author papers as an undergraduate, one published at **ACL 2026** and one under review at **ICML 2026**.
 
 ## News
 
@@ -45,8 +45,8 @@ I have published at top AI venues including **ACL** and **ICML** (under review),
 - *2025* &nbsp; Beijing Natural Science Foundation Undergraduate "QiYan" Research Program (北京市自然科学基金本科生"启研"计划)
 - *2024* &nbsp; Peking University Boya Scholarship
 - *2024* &nbsp; Peking University CMSC Scholarship (招商证券奖学金)
-- *2024* &nbsp; Academic Excellence Award
-- *2024* &nbsp; Social Service Award
+- *2024* &nbsp; Peking University Academic Excellence Award
+- *2024* &nbsp; Peking University Social Service Award
 - *2023* &nbsp; Peking University Freshman Scholarship (First Prize)
 - *2023* &nbsp; Provincial Top 1, National College Entrance Exam (Science)
 

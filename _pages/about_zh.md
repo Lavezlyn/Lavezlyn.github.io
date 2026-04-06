@@ -30,7 +30,7 @@ latest_posts:
 
 我的研究聚焦于**多模态人工智能系统的可信性**，重点方向包括真实性评估、欺骗检测与对齐。我提出了 [TruthfulVQA](https://truthfulvqa.github.io/)（首个多模态真实性基准）和 [MM-DeceptionBench](https://mm-deception.github.io/)（首个多模态大模型欺骗检测基准）。
 
-我在本科期间已发表两篇一作论文于顶级人工智能会议，包括 **ACL 2026** 和 **ICML 2026**（审稿中）。
+我在本科期间有两篇一作论文，一篇发表于 **ACL 2026**，一篇在 **ICML 2026** 审稿中。
 
 ## 动态
 
