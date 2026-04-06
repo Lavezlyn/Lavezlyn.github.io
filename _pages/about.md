@@ -30,15 +30,15 @@ My research focuses on **trustworthy multimodal AI** and **physically grounded w
 - _2025.11_ &nbsp; Our survey [AI Deception](https://arxiv.org/abs/2511.22619) released, the first systematic international report on AI deception, with Turing Award laureate Andrew Yao as the corresponding author.
 - _2026.09_ &nbsp; [Debate with Images](https://mm-deception.github.io/) released, introducing MM-DeceptionBench and a multi-agent debate framework for multimodal deception detection.
 - _2025.06_ &nbsp; [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) open-sourced at PKU-Alignment.
-[Debate with Images](https://mm-deception.github.io/) released, introducing MM-DeceptionBench and a multi-agent debate framework for multimodal deception detection.
-- _2025.05_ &nbsp; Awarded Beijing Natural Science Foundation Undergraduate *QiYan* Research Program Grant.
+  [Debate with Images](https://mm-deception.github.io/) released, introducing MM-DeceptionBench and a multi-agent debate framework for multimodal deception detection.
+- _2025.05_ &nbsp; Awarded Beijing Natural Science Foundation Undergraduate _QiYan_ Research Program Grant.
 
 ## Honors and Awards
 
 - _2025_ &nbsp; Yuanpei Young Scholar (10 annual recipients)
-- _2025_ &nbsp; Beijing Natural Science Foundation Undergraduate *QiYan* Research Program (Sole recipient in the cohort)
+- _2025_ &nbsp; Beijing Natural Science Foundation Undergraduate _QiYan_ Research Program (Sole recipient in the cohort)
 - _2025_ &nbsp; Soong Ching Ling Future Scholarship (national undergraduate scholarship)
-- _2024_ &nbsp; Peking University Boya Scholarship 
+- _2024_ &nbsp; Peking University Boya Scholarship
 - _2024_ &nbsp; Peking University Academic Excellence Award, Social Service Award
 - _2023_ &nbsp; Peking University Freshman Scholarship (First Prize)
 - _2023_ &nbsp; Ranked 1st in Fujian Province, National College Entrance Exam (Science)
@@ -68,7 +68,6 @@ Building physically grounded world foundation models with reinforcement learning
 <strong>HKGAI R&D Center / HKUST</strong> · Research Intern · <em>2024.12 – 2025.03</em><br>
 Contributed to <strong>HKGAI-V1</strong>, the Hong Kong government's first locally fine-tuned generative AI model, focusing on safety alignment for Cantonese, Mandarin, and English.
 </div>
-
 
 ## Educations
 

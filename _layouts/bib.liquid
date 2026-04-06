@@ -98,9 +98,20 @@
           {% if forloop.index0 < author_array_limit %}
             {% comment %} Visible front authors {% endcomment %}
             {% if forloop.index0 > 0 %}, {% endif %}
-            {%- if author_is_self -%}<em>{{- author.first }} {{ author_last_html -}}</em>
-            {%- elsif coauthor_url -%}<a href="{{ coauthor_url }}">{{- author.first }} {{ author_last_html -}}</a>
-            {%- else -%}{{- author.first }} {{ author_last_html -}}{%- endif -%}
+            {%- if author_is_self -%}
+              <em>
+                {{- author.first }}
+                {{ author_last_html -}}
+              </em>
+            {%- elsif coauthor_url -%}
+              <a href="{{ coauthor_url }}">
+                {{- author.first }}
+                {{ author_last_html -}}
+              </a>
+            {%- else -%}
+              {{- author.first }}
+              {{ author_last_html -}}
+            {%- endif -%}
             {% if forloop.index == author_array_limit %}
               {% comment %} After last visible front author, insert the collapsed middle {% endcomment %}
               ,
@@ -118,7 +129,9 @@
                     element.hide();
                   }
                 "
-              >{{ hidden_count }} more author{% if hidden_count > 1 %}s{% endif %}</span>
+              >
+                {{- hidden_count }} more author{% if hidden_count > 1 %}s{% endif -%}
+              </span>
               <span class="hidden-authors" style="display:none;">
                 {%- for mid_author in entry.author_array offset: author_array_limit -%}
                   {% assign mid_remaining = author_array_size | minus: author_array_limit | minus: forloop.index0 %}
@@ -141,15 +154,42 @@
                       {% endif %}
                     {%- endfor -%}
                   {% endif %}
-                  {%- if mid_is_self -%}<em>{{- mid_author.first }} {{ mid_last_html -}}</em>,
-                  {%- elsif mid_coauthor_url -%}<a href="{{ mid_coauthor_url }}">{{- mid_author.first }} {{ mid_last_html -}}</a>,
-                  {%- else -%}{{- mid_author.first }} {{ mid_last_html -}},{%- endif -%}
+                  {%- if mid_is_self -%}
+                    <em>
+                      {{- mid_author.first }}
+                      {{ mid_last_html -}}</em
+                    >,
+                  {%- elsif mid_coauthor_url -%}
+                    <a href="{{ mid_coauthor_url }}">
+                      {{- mid_author.first }}
+                      {{ mid_last_html -}}</a
+                    >,
+                  {%- else -%}
+                    {{- mid_author.first }}
+                    {{ mid_last_html -}}
+                    ,
+                  {%- endif -%}
                 {%- endfor -%}
               </span>
             {% endif %}
           {% elsif forloop.index0 >= tail_start %}
             {% comment %} Tail authors always visible {% endcomment %}
-            {% if forloop.last %} and {% endif %}{% if author_is_self %}<em>{{ author.first }} {{ author_last_html }}</em>{% elsif coauthor_url %}<a href="{{ coauthor_url }}">{{ author.first }} {{ author_last_html }}</a>{% else %}{{ author.first }} {{ author_last_html }}{% endif %}{% unless forloop.last %},{% endunless %}
+            {% if forloop.last %} and {% endif -%}
+            {%- if author_is_self -%}
+              <em>
+                {{- author.first }}
+                {{ author_last_html -}}
+              </em>
+            {%- elsif coauthor_url -%}
+              <a href="{{ coauthor_url }}">
+                {{- author.first }}
+                {{ author_last_html -}}
+              </a>
+            {%- else -%}
+              {{- author.first }}
+              {{ author_last_html -}}
+            {%- endif -%}
+            {%- unless forloop.last %},{% endunless %}
           {% endif %}
         {% else %}
           {% comment %} No truncation needed, show all {% endcomment %}
@@ -159,9 +199,20 @@
             {%- endif %}
             {%- if forloop.last %}and {% endif -%}
           {% endif %}
-          {%- if author_is_self -%}<em>{{- author.first }} {{ author_last_html -}}</em>
-          {%- elsif coauthor_url -%}<a href="{{ coauthor_url }}">{{- author.first }} {{ author_last_html -}}</a>
-          {%- else -%}{{- author.first }} {{ author_last_html -}}{%- endif -%}
+          {%- if author_is_self -%}
+            <em>
+              {{- author.first }}
+              {{ author_last_html -}}
+            </em>
+          {%- elsif coauthor_url -%}
+            <a href="{{ coauthor_url }}">
+              {{- author.first }}
+              {{ author_last_html -}}
+            </a>
+          {%- else -%}
+            {{- author.first }}
+            {{ author_last_html -}}
+          {%- endif -%}
         {% endif %}
       {%- endfor -%}
       {% if entry.annotation %}
