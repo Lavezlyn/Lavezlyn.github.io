@@ -39,14 +39,22 @@
 
 Layout reference: [cby-pku.github.io](https://cby-pku.github.io/)
 
+**Two-column layout (~25/75 split):**
+- **Left column (profile sidebar)**: Circular photo, name, affiliation, research keywords, location, social icon links
+- **Right column (main content)**: Bio, News, Awards, Publications, Experiences, Educations
+
 Sections in order:
 
-#### Hero Section
-- Professional photo (`cv_photo.png`)
-- Name: Sitong Fang (方思童)
+#### Left Column (Profile Sidebar)
+- Circular professional photo (`cv_photo.png`)
+- Name: **Sitong Fang** (方思童)
 - Title: Undergraduate Student
 - Affiliation: Yuanpei College, Peking University
-- Social links: Email, Google Scholar, GitHub (add LinkedIn/Twitter later if desired)
+- Research interests: AI Safety, AI Alignment, Multimodal Trustworthiness
+- Location: Beijing, China
+- Social icon links (horizontal): Email, Google Scholar, GitHub (add LinkedIn/Twitter later if desired)
+
+#### Right Column — Main Content
 
 #### Bio (Bilingual)
 
@@ -70,16 +78,21 @@ Sections in order:
             "QiYan" Research Program Grant.
 ```
 
-#### Honors and Awards (ordered by prestige, gaokao last)
-1. Yuanpei Young Scholar (元培青年学者, Top 10 across all grades)
-2. Soong Ching Ling Future Scholarship (宋庆龄未来助学金)
-3. Beijing Natural Science Foundation Undergraduate "QiYan" Research Program (北京市自然科学基金本科生"启研"计划)
-4. Peking University Freshman Scholarship (First Prize)
-5. Peking University Boya Scholarship
-6. Peking University CMSC Scholarship
-7. Academic Excellence Award
-8. Social Service Award
-9. Provincial Top 1, National College Entrance Exam (Science, 2023)
+#### Honors and Awards
+
+Format: year (italicized) at the front, award name follows. Ordered by year descending, then by prestige within the same year. Matches [cby-pku.github.io](https://cby-pku.github.io/) style.
+
+- *2025* Yuanpei Young Scholar (元培青年学者, Top 10 across all grades)
+- *2025* Soong Ching Ling Future Scholarship (宋庆龄未来助学金)
+- *2025* Beijing Natural Science Foundation Undergraduate "QiYan" Research Program (北京市自然科学基金本科生"启研"计划)
+- *2024* Peking University Boya Scholarship
+- *2024* Peking University CMSC Scholarship
+- *2024* Academic Excellence Award
+- *2024* Social Service Award
+- *2023* Peking University Freshman Scholarship (First Prize)
+- *2023* Provincial Top 1, National College Entrance Exam (Science)
+
+Note: Years above are placeholders — confirm exact years with user during implementation.
 
 #### Selected Publications (2-3 representative papers)
 
