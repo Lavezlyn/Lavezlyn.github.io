@@ -37,14 +37,24 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zh/";
           },
-        },{id: "projects-debate-with-images",
+        },{id: "projects-align-anything",
+          title: 'Align Anything',
+          description: "Training All-Modality Models to Follow Instructions with Language Feedback",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/align-anything/";
+            },},{id: "projects-debate-with-images",
           title: 'Debate with Images',
           description: "Detecting Deceptive Behaviors in Multimodal Large Language Models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/debate-with-images/";
-            },},{id: "projects-when-slower-isn-39-t-truer",
-          title: 'When Slower Isn&amp;#39;t Truer',
-          description: "Inverse Scaling Law of Truthfulness in Multimodal Reasoning",
+            },},{id: "projects-eval-anything",
+          title: 'Eval-Anything',
+          description: "Comprehensive Safety Evaluation for Any-to-Any Multimodal Models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/eval-anything/";
+            },},{id: "projects-truthfulvqa",
+          title: 'TruthfulVQA',
+          description: "The First Benchmark for Multimodal Truthfulness Evaluation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/truthfulvqa/";
             },},{
@@ -67,13 +77,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/Lavezlyn", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
