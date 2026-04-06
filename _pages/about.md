@@ -26,7 +26,7 @@ My research focuses on **trustworthy multimodal AI** and **physically grounded w
 
 ## News
 
-- _2026.04_ &nbsp; One paper accepted at **ACL 2026** Main Conference.
+- _2026.04_ &nbsp; One paper accepted at **ACL 2026**.
 - _2025.11_ &nbsp; Our survey [AI Deception](https://arxiv.org/abs/2511.22619) released, the first systematic international report on AI deception, with Turing Award laureate Andrew Yao as the corresponding author.
 - _2026.09_ &nbsp; [Debate with Images](https://mm-deception.github.io/) released, introducing MM-DeceptionBench and a multi-agent debate framework for multimodal deception detection.
 - _2025.06_ &nbsp; [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) open-sourced at PKU-Alignment.
