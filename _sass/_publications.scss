@@ -31,6 +31,15 @@
     text-align: right;
   }
 
+  // Hide year heading in about page inline publications
+  .post & {
+    margin-top: 0;
+
+    h2.bibliography {
+      display: none;
+    }
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;

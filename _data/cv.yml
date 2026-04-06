@@ -1,0 +1,96 @@
+cv:
+  name: Sitong Fang
+  label: Undergraduate Researcher
+  email: sitongfang1@gmail.com
+  website: https://sitongfang.com
+  summary: >
+    Research Interests: Trustworthy multimodal AI, physically grounded world models, and AI alignment.
+
+  sections:
+    Education:
+      - institution: Peking University
+        studyType: B.S. in Artificial Intelligence
+        area: "Yuanpei College"
+        start_date: "2023"
+        end_date: "Present"
+        location: Beijing, China
+        highlights:
+          - "**Honors:** Yuanpei Young Scholar; Boya Scholarship; Soong Ching Ling Future Scholarship; Beijing Natural Science Foundation *QiYan* Research Program; Freshman Scholarship (First Prize)"
+          - "**Technical Skills:** Python, PyTorch, vLLM, DeepSpeed, Ray, CUDA, C/C++, LaTeX"
+
+    Publications:
+      - title: "When Slower Isn't Truer: Inverse Scaling Law of Truthfulness in Multimodal Reasoning"
+        date: "2026"
+        publisher: "ACL 2026"
+        url: https://arxiv.org/abs/2505.20214
+        summary: "**Sitong Fang**, Wenjing Cao, Jiahao Li, Xuyao Wang, Chi-Min Chan, Sirui Han, Juntao Dai, Yike Guo, Yaodong Yang, Jiaming Ji"
+
+      - title: "Debate with Images: Detecting Deceptive Behaviors in Multimodal LLMs"
+        date: "2026"
+        publisher: "Under Review"
+        url: https://arxiv.org/abs/2512.00349
+        summary: "**Sitong Fang**, Shiyi Hou, Kaile Wang, Boyuan Chen, Donghai Hong, Jiayi Zhou, Juntao Dai, Yaodong Yang, Jiaming Ji"
+
+      - title: "AI Deception: Risks, Dynamics, and Controls"
+        date: "2025"
+        publisher: "Under Review"
+        url: https://arxiv.org/abs/2511.22619
+        summary: "Boyuan Chen\\*, **Sitong Fang**\\*, Jiaming Ji\\*, ..., Yaodong Yang, Tiejun Huang, Ya-Qin Zhang, HongJiang Zhang, Andrew Yao. (* Equal contribution)"
+
+    Experience:
+      - company: Physis AI
+        position: Research Scientist
+        start_date: "2026"
+        end_date: "Present"
+        highlights:
+          - "World model startup building physically grounded world foundation models with reinforcement learning. Backed by Hillhouse Ventures and Yanyuan Capital."
+
+      - company: PKU-Alignment Group, Peking University
+        position: Research Intern
+        start_date: "2024"
+        end_date: "Present"
+        url: https://github.com/PKU-Alignment
+        summary: "Advised by [Prof. Yaodong Yang](https://www.yangyaodong.com/)"
+        highlights:
+          - "Led the development of **TruthfulVQA**, the first benchmark for multimodal truthfulness evaluation (ACL 2026)."
+          - "Led the development of **Debate with Images**, a visually grounded multi-agent debate framework for multimodal deception detection, along with **MM-DeceptionBench**, the first benchmark for multimodal deception."
+          - "Co-first authored the **AI Deception Survey**, with Turing Award laureate Andrew Yao as corresponding author."
+          - "Core contributor to [Align-Anything](https://github.com/PKU-Alignment/align-anything) (4,600+ stars on GitHub), an all-modality alignment framework."
+          - "Core contributor to [Eval-Anything](https://github.com/PKU-Alignment/eval-anything), a comprehensive safety evaluation framework for multimodal models."
+
+      - company: HKGAI R&D Center / HKUST
+        position: Research Intern
+        start_date: "2024"
+        end_date: "2025"
+        highlights:
+          - "Contributed to **HKGAI-V1**, the Hong Kong government's first locally fine-tuned generative AI model based on DeepSeek, supporting Cantonese, Mandarin, and English with localized safety alignment."
+
+    Honors and Awards:
+      - title: "Yuanpei Young Scholar, Peking University"
+        date: "2025"
+        summary: "10 annual recipients"
+
+      - title: "Beijing Natural Science Foundation Undergraduate QiYan Research Program"
+        date: "2025"
+        summary: "Sole recipient in cohort"
+
+      - title: Soong Ching Ling Future Scholarship
+        date: "2025"
+
+      - title: Boya Scholarship, Peking University
+        date: "2024"
+
+      - title: CMSC Scholarship, Peking University
+        date: "2024"
+
+      - title: Academic Excellence Award, Peking University
+        date: "2024"
+
+      - title: Social Service Award, Peking University
+        date: "2024"
+
+      - title: Freshman Scholarship (First Prize), Peking University
+        date: "2023"
+
+      - title: "Ranked 1st in Fujian Province, National College Entrance Exam (Science)"
+        date: "2023"

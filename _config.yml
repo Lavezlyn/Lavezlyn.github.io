@@ -11,7 +11,7 @@ description: "Sitong Fang's academic homepage. AI Safety & Alignment researcher 
 footer_text: ""
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://lavezlyn.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -169,6 +169,7 @@ kramdown:
 include: ["_pages", "_scripts", ".nojekyll"]
 exclude:
   - bin/
+  - Lavezlyn.github.io/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -324,6 +325,7 @@ filtered_bibtex_keywords:
     supp,
     video,
     website,
+    tail_authors,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)

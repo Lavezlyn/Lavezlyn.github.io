@@ -1,0 +1,161 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1.6cm, top=1.4cm, bottom=1.4cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+
+% Colors
+\definecolor{linkblue}{HTML}{0645AD}
+\definecolor{rulecolor}{HTML}{333333}
+
+% Hyperlink style
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkblue,
+  urlcolor=linkblue,
+  pdfauthor={Sitong Fang},
+  pdftitle={CV -- Sitong Fang}
+}
+
+% Section formatting: bold title with horizontal rule
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{0.2em}\titlerule\vspace{0.2em}]
+\titlespacing*{\section}{0pt}{0.7em}{0.3em}
+
+% No page numbers
+\pagestyle{empty}
+
+% Compact lists
+\setlist[itemize]{leftmargin=1.5em, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+% Shorthand for my name (underlined)
+\newcommand{\me}{\uline{Sitong Fang}}
+
+% Publication entry: title on left, venue+link on right (tabularx prevents wrapping)
+\newcommand{\pubentry}[3]{%
+  \noindent\begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{#1} & #2\enspace\href{#3}{\faFilePdf} \\
+  \end{tabularx}\vspace{-2pt}%
+}
+
+% Generic entry: left bold + right info
+\newcommand{\cventry}[2]{%
+  \noindent\begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{#1} & {#2} \\
+  \end{tabularx}\vspace{-2pt}%
+}
+
+% Publication venue tag
+\newcommand{\venue}[1]{%
+  \colorbox{gray!15}{\small\textbf{#1}}%
+}
+
+\begin{document}
+
+% ============================================================================
+% Header
+% ============================================================================
+\begin{center}
+  {\LARGE\bfseries Sitong Fang} \\[5pt]
+  \faEnvelope~\href{mailto:sitongfang1@gmail.com}{sitongfang1@gmail.com}
+  \quad$\cdot$\quad
+  \faGlobe~\href{https://sitongfang.com}{sitongfang.com}
+  \quad$\cdot$\quad
+  \faGithub~\href{https://github.com/Lavezlyn}{Sitong Fang}
+  \\[4pt]
+  \textit{Research Interests: Trustworthy multimodal AI, physically grounded world models, and AI alignment.}
+\end{center}
+
+\vspace{-0.4em}
+
+% ============================================================================
+\section{Education}
+
+\cventry{Peking University}{B.S., 2023\,--\,2027 (expected)}
+\noindent Yuanpei College, Artificial Intelligence \\[2pt]
+\begin{itemize}
+  \item \textbf{Honors:} Yuanpei Young Scholar; Boya Scholarship; Soong Ching Ling Future Scholarship; Beijing Natural Science Foundation \textit{QiYan} Research Program; Freshman Scholarship (First Prize)
+  \item \textbf{Technical Skills:} Python, PyTorch, vLLM, DeepSpeed, Ray, CUDA, C/C++, \LaTeX
+\end{itemize}
+
+% ============================================================================
+\section{Publications}
+
+\pubentry{When Slower Isn't Truer: Inverse Scaling Law of Truthfulness in Multimodal Reasoning}{\venue{ACL 2026}}{https://arxiv.org/abs/2505.20214}
+\me{}, Wenjing Cao, Jiahao Li, Xuyao Wang, Chi-Min Chan, Sirui Han, Juntao Dai, Yike Guo, Yaodong Yang, Jiaming Ji
+\begin{itemize}
+  \item Discovered an inverse scaling law: slower reasoning models are less truthful in multimodal settings.
+  \item Proposed \textbf{TruthfulVQA}, the first benchmark for multimodal truthfulness evaluation with 5,000+ images, and \textbf{TruthfulJudge}, a human-in-the-loop evaluation framework.
+\end{itemize}
+
+\vspace{0.3em}
+
+\pubentry{Debate with Images: Detecting Deceptive Behaviors in Multimodal LLMs}{\venue{Under Review}}{https://arxiv.org/abs/2512.00349}
+\me{}, Shiyi Hou, Kaile Wang, Boyuan Chen, Donghai Hong, Jiayi Zhou, Juntao Dai, Yaodong Yang, Jiaming Ji
+\begin{itemize}
+  \item Introduced \textbf{MM-DeceptionBench}, the first benchmark for evaluating deceptive behaviors in multimodal LLMs.
+  \item Proposed \textbf{Debate with Images}, a multi-agent debate framework requiring models to ground claims in visual evidence, significantly improving deception detection accuracy.
+\end{itemize}
+
+\vspace{0.3em}
+
+\pubentry{AI Deception: Risks, Dynamics, and Controls}{\venue{Under Review}}{https://arxiv.org/abs/2511.22619}
+Boyuan Chen*, \me{}*, Jiaming Ji*, \ldots, Yaodong Yang\textsuperscript{\dag}, Tiejun Huang\textsuperscript{\dag}, Ya-Qin Zhang\textsuperscript{\dag}, HongJiang Zhang\textsuperscript{\dag}, Andrew Yao\textsuperscript{\dag}
+\hfill {\small *\,Equal contribution \enspace \dag\,Corresponding author}
+\begin{itemize}
+  \item The first systematic international report on AI deception, with Turing Award laureate Andrew Yao as the corresponding author. Submitted to ACM Computing Surveys.
+  \item Formally defined AI deception using signaling theory, analyzed the deception cycle, and proposed mitigation strategies.
+\end{itemize}
+
+% ============================================================================
+\section{Research Experience}
+
+\cventry{Physis AI}{2026\,--\,Present}
+\noindent Research Scientist
+\begin{itemize}
+  \item World model startup building physically grounded world foundation models with reinforcement learning. Backed by Hillhouse Ventures and Yanyuan Capital (over \$10M first round).
+\end{itemize}
+
+\vspace{0.3em}
+
+\cventry{PKU-Alignment Group, Peking University}{2024\,--\,Present}
+\noindent Research Intern \enspace$\cdot$\enspace Advised by \href{https://www.yangyaodong.com/}{Prof.~Yaodong Yang}
+\begin{itemize}
+  \item Led the development of \textbf{TruthfulVQA}, the first benchmark for multimodal truthfulness evaluation (ACL 2026).
+  \item Led the development of \textbf{Debate with Images}, a visually grounded multi-agent debate framework for multimodal deception detection, along with \textbf{MM-DeceptionBench}, the first benchmark for multimodal deception.  
+  \item Co-first authored the \textbf{AI Deception Survey}, with Turing Award laureate Andrew Yao as corresponding author.
+  \item Core contributor to \href{https://github.com/PKU-Alignment/align-anything}{\textbf{Align-Anything}} (4,600+ stars on GitHub), an all-modality alignment framework.
+  \item Core contributor to \href{https://github.com/PKU-Alignment/eval-anything}{\textbf{Eval-Anything}}, a comprehensive safety evaluation framework for multimodal models.
+\end{itemize}
+
+\vspace{0.3em}
+
+\cventry{HKGAI R\&D Center / HKUST}{2024-2025}
+\noindent Research Intern
+\begin{itemize}
+  \item Contributed to \textbf{HKGAI-V1}, the Hong Kong government's first locally fine-tuned generative AI model based on DeepSeek, supporting Cantonese, Mandarin, and English with localized safety alignment.
+\end{itemize}
+
+% ============================================================================
+\section{Honors and Awards}
+
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}l@{\hspace{1em}}X@{}}
+2025 & Yuanpei Young Scholar, Peking University \hfill {\small\textit{10 annual recipients}} \\
+2025 & Beijing Natural Science Foundation Undergraduate \textit{QiYan} Research Program \hfill {\small\textit{Sole recipient in cohort}} \\
+2025 & Soong Ching Ling Future Scholarship \\
+2024 & Boya Scholarship, Peking University \\
+2024 & CMSC Scholarship, Peking University \\
+2024 & Academic Excellence Award, Peking University \\
+2024 & Social Service Award, Peking University \\
+2023 & Freshman Scholarship (First Prize), Peking University \\
+2023 & Ranked 1st in Fujian Province, National College Entrance Exam (Science) \\
+\end{tabularx}
+
+\end{document}

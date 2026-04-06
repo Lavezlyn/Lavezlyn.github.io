@@ -64,7 +64,7 @@ ul.task-list input[type="checkbox"] {
     font-family: monospace;
 
     p {
-      display: inline-block;
+      display: block;
       margin: 0;
     }
   }
@@ -76,6 +76,13 @@ ul.task-list input[type="checkbox"] {
 
 .profile.float-left {
   margin-right: 1rem;
+}
+
+// Ensure section headings in about page clear the profile float
+.post article > .clearfix {
+  h2 {
+    clear: both;
+  }
 }
 
 @media (min-width: 576px) {
@@ -143,6 +150,7 @@ ul.task-list input[type="checkbox"] {
 
   .col {
     padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   .grid-sizer,

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "When Slower Isn't Truer"
-description: "Inverse Scaling Law of Truthfulness in Multimodal Reasoning"
+title: "TruthfulVQA"
+description: "The First Benchmark for Multimodal Truthfulness Evaluation"
 img: assets/img/publication_preview/truthfulvqa.png
 importance: 1
 category: research
