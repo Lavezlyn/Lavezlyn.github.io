@@ -15,6 +15,7 @@
 ### Task 1: Clone al-folio and configure base project
 
 **Files:**
+
 - Create: `_config.yml` (overwrite al-folio default)
 - Create: `_data/socials.yml` (overwrite al-folio default)
 - Create: `assets/img/prof_pic.jpg` (copy from `cv_photo.png`)
@@ -169,10 +170,34 @@ timezone: Asia/Shanghai
 
 # --- Other ---
 filtered_bibtex_keywords:
-  [abbr, abstract, additional_info, altmetric, annotation, arxiv, award,
-   award_name, bibtex_show, blog, code, dimensions, eprint,
-   google_scholar_id, hal, html, inspirehep_id, pdf, pmid, poster,
-   preview, selected, slides, supp, video, website]
+  [
+    abbr,
+    abstract,
+    additional_info,
+    altmetric,
+    annotation,
+    arxiv,
+    award,
+    award_name,
+    bibtex_show,
+    blog,
+    code,
+    dimensions,
+    eprint,
+    google_scholar_id,
+    hal,
+    html,
+    inspirehep_id,
+    pdf,
+    pmid,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    video,
+    website,
+  ]
 ```
 
 - [ ] **Step 5: Configure `_data/socials.yml`**
@@ -209,6 +234,7 @@ git commit -m "feat: initialize al-folio template with base configuration"
 ### Task 2: Write the About page (English)
 
 **Files:**
+
 - Create: `_pages/about.md` (overwrite al-folio default)
 
 The about page contains ALL main content sections in the body, with auto-rendered selected_papers and announcements disabled (we control the order manually).
@@ -249,23 +275,23 @@ I have published at top AI venues including **ACL** and **ICML** (under review),
 
 ## News
 
-- *2026.01*: One paper accepted at **ACL 2026** Main Conference.
-- *2025.12*: One paper submitted to **ICML 2026**.
-- *2025.11*: Our survey [AI Deception](https://arxiv.org/abs/2511.22619) released -- the first systematic international report on AI deception (59 co-authors).
-- *2025.10*: [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) open-sourced at PKU-Alignment.
-- *2024.12*: Awarded Beijing Natural Science Foundation Undergraduate "QiYan" Research Program Grant.
+- _2026.01_: One paper accepted at **ACL 2026** Main Conference.
+- _2025.12_: One paper submitted to **ICML 2026**.
+- _2025.11_: Our survey [AI Deception](https://arxiv.org/abs/2511.22619) released -- the first systematic international report on AI deception (59 co-authors).
+- _2025.10_: [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) open-sourced at PKU-Alignment.
+- _2024.12_: Awarded Beijing Natural Science Foundation Undergraduate "QiYan" Research Program Grant.
 
 ## Honors and Awards
 
-- *2025* &nbsp; Yuanpei Young Scholar (元培青年学者, Top 10 across all grades)
-- *2025* &nbsp; Soong Ching Ling Future Scholarship (宋庆龄未来助学金)
-- *2025* &nbsp; Beijing Natural Science Foundation Undergraduate "QiYan" Research Program (北京市自然科学基金本科生"启研"计划)
-- *2024* &nbsp; Peking University Boya Scholarship
-- *2024* &nbsp; Peking University CMSC Scholarship (招商证券奖学金)
-- *2024* &nbsp; Academic Excellence Award
-- *2024* &nbsp; Social Service Award
-- *2023* &nbsp; Peking University Freshman Scholarship (First Prize)
-- *2023* &nbsp; Provincial Top 1, National College Entrance Exam (Science)
+- _2025_ &nbsp; Yuanpei Young Scholar (元培青年学者, Top 10 across all grades)
+- _2025_ &nbsp; Soong Ching Ling Future Scholarship (宋庆龄未来助学金)
+- _2025_ &nbsp; Beijing Natural Science Foundation Undergraduate "QiYan" Research Program (北京市自然科学基金本科生"启研"计划)
+- _2024_ &nbsp; Peking University Boya Scholarship
+- _2024_ &nbsp; Peking University CMSC Scholarship (招商证券奖学金)
+- _2024_ &nbsp; Academic Excellence Award
+- _2024_ &nbsp; Social Service Award
+- _2023_ &nbsp; Peking University Freshman Scholarship (First Prize)
+- _2023_ &nbsp; Provincial Top 1, National College Entrance Exam (Science)
 
 ## Selected Publications
 
@@ -290,10 +316,10 @@ Contributed to <strong>HKGAI-V1</strong>, the Hong Kong government's first local
 
 ## Educations
 
-- *2023 - Present* &nbsp; B.S. in Artificial Intelligence, Yuanpei Honors College, Peking University
+- _2023 - Present_ &nbsp; B.S. in Artificial Intelligence, Yuanpei Honors College, Peking University
 ```
 
-**Note:** The exact years for awards are estimates from the spec. Confirm with user during review. The news dates (month) should also be confirmed. The email in _config.yml should be verified.
+**Note:** The exact years for awards are estimates from the spec. Confirm with user during review. The news dates (month) should also be confirmed. The email in \_config.yml should be verified.
 
 - [ ] **Step 2: Verify build**
 
@@ -316,6 +342,7 @@ git commit -m "feat: add About page with bio, news, awards, experiences, educati
 ### Task 3: Set up BibTeX publications system
 
 **Files:**
+
 - Create: `_bibliography/papers.bib`
 - Create: `_data/venues.yml`
 - Modify: `_pages/publications.md` (confirm configuration)
@@ -460,6 +487,7 @@ git commit -m "feat: add BibTeX publications with 4 papers and venue badges"
 ### Task 4: Create project pages for first-author papers
 
 **Files:**
+
 - Modify: `_pages/projects.md`
 - Create: `_projects/truthfulvqa.md`
 - Create: `_projects/debate-with-images.md`
@@ -481,7 +509,7 @@ horizontal: false
 
 - [ ] **Step 2: Create `_projects/truthfulvqa.md`**
 
-```markdown
+````markdown
 ---
 layout: page
 title: "When Slower Isn't Truer"
@@ -528,11 +556,13 @@ We discover that "slower" reasoning models (System II thinking) are **less truth
   year={2026}
 }
 ```
+````
+
 ---
 
 - [ ] **Step 3: Create `_projects/debate-with-images.md`**
 
-```markdown
+````markdown
 ---
 layout: page
 title: "Debate with Images"
@@ -579,7 +609,9 @@ We introduce **MM-DeceptionBench**, the first benchmark for evaluating deceptive
   year={2026}
 }
 ```
-```
+````
+
+````
 
 - [ ] **Step 4: Verify build**
 
@@ -587,7 +619,7 @@ We introduce **MM-DeceptionBench**, the first benchmark for evaluating deceptive
 cd /mnt/users/sitong/homepage
 bundle exec jekyll build 2>&1 | tail -20
 ls _site/projects/
-```
+````
 
 Expected: Build succeeds. Project pages generated.
 
@@ -603,6 +635,7 @@ git commit -m "feat: add project pages for TruthfulVQA and Debate with Images"
 ### Task 5: Set up CV page
 
 **Files:**
+
 - Modify: `_pages/cv.md`
 - Create: `assets/pdf/CV_Sitong_Fang.pdf` (placeholder — user provides actual PDF)
 
@@ -631,10 +664,10 @@ echo "%PDF-1.0
 3 0 obj<</Type/Page/MediaBox[0 0 612 792]/Parent 2 0 R>>endobj
 xref
 0 4
-0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000115 00000 n
 trailer<</Size 4/Root 1 0 R>>
 startxref
 190
@@ -663,6 +696,7 @@ git commit -m "feat: add CV page with PDF download"
 ### Task 6: Add Chinese About page
 
 **Files:**
+
 - Create: `_pages/about_zh.md`
 - Modify: `_config.yml` (add Chinese page to navbar via `header_pages` or handle in the page itself)
 
@@ -706,23 +740,23 @@ latest_posts:
 
 ## 动态
 
-- *2026.01*: 一篇论文被 **ACL 2026** 主会录用。
-- *2025.12*: 一篇论文投稿至 **ICML 2026**。
-- *2025.11*: 国际 AI 欺骗系统性报告 [AI Deception](https://arxiv.org/abs/2511.22619) 发布，59 位共同作者。
-- *2025.10*: [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) 在 PKU-Alignment 开源。
-- *2024.12*: 获北京市自然科学基金本科生"启研"计划资助。
+- _2026.01_: 一篇论文被 **ACL 2026** 主会录用。
+- _2025.12_: 一篇论文投稿至 **ICML 2026**。
+- _2025.11_: 国际 AI 欺骗系统性报告 [AI Deception](https://arxiv.org/abs/2511.22619) 发布，59 位共同作者。
+- _2025.10_: [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) 在 PKU-Alignment 开源。
+- _2024.12_: 获北京市自然科学基金本科生"启研"计划资助。
 
 ## 荣誉与奖项
 
-- *2025* &nbsp; 元培青年学者（全年级仅 10 人）
-- *2025* &nbsp; 宋庆龄未来助学金
-- *2025* &nbsp; 北京市自然科学基金本科生"启研"计划
-- *2024* &nbsp; 北京大学博雅奖学金
-- *2024* &nbsp; 北京大学招商证券奖学金
-- *2024* &nbsp; 学习优秀奖
-- *2024* &nbsp; 社会工作奖
-- *2023* &nbsp; 北京大学新生奖学金（一等奖）
-- *2023* &nbsp; 高考理科状元
+- _2025_ &nbsp; 元培青年学者（全年级仅 10 人）
+- _2025_ &nbsp; 宋庆龄未来助学金
+- _2025_ &nbsp; 北京市自然科学基金本科生"启研"计划
+- _2024_ &nbsp; 北京大学博雅奖学金
+- _2024_ &nbsp; 北京大学招商证券奖学金
+- _2024_ &nbsp; 学习优秀奖
+- _2024_ &nbsp; 社会工作奖
+- _2023_ &nbsp; 北京大学新生奖学金（一等奖）
+- _2023_ &nbsp; 高考理科状元
 
 ## 代表论文
 
@@ -747,7 +781,7 @@ latest_posts:
 
 ## 教育经历
 
-- *2023 - 至今* &nbsp; 北京大学元培学院，人工智能专业
+- _2023 - 至今_ &nbsp; 北京大学元培学院，人工智能专业
 ```
 
 - [ ] **Step 2: Verify build**
@@ -772,6 +806,7 @@ git commit -m "feat: add Chinese version of About page at /zh/"
 ### Task 7: Clean up, configure deployment, and final test
 
 **Files:**
+
 - Clean: Remove remaining al-folio example files
 - Verify: `.github/workflows/deploy.yml` (should come with al-folio)
 - Verify: Full site build
