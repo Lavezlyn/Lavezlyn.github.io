@@ -31,7 +31,7 @@ display_name: 方思童
 ## 动态
 
 - _2026.05_ &nbsp; [Debate with Images](https://mm-deception.github.io/) 被 **ICML 2026** 录用。
-- _2026.04_ &nbsp; 一篇论文被 **ACL 2026** 录用。
+- _2026.04_ &nbsp; [TruthfulVQA](https://truthfulvqa.github.io/) 被 **ACL 2026** 录用。
 - _2025.11_ &nbsp; [AI Deception](https://arxiv.org/abs/2511.22619) 综述发布，首个国际 AI 欺骗系统性报告，图灵奖得主姚期智院士为通讯作者。
 - _2025.09_ &nbsp; [Debate with Images](https://mm-deception.github.io/) 发布，提出 MM-DeceptionBench 与多智能体辩论欺骗检测框架。
 - _2025.06_ &nbsp; [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) 在 PKU-Alignment 开源。
