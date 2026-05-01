@@ -22,15 +22,15 @@ latest_posts:
 
 I am a senior undergraduate majoring in Artificial Intelligence at [Yuanpei College](https://yuanpei.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/), advised by [Prof. Yaodong Yang](https://www.yangyaodong.com/). I am a member of the [PKU Alignment Group](https://github.com/PKU-Alignment) and a Research Scientist at Physis AI.
 
-My research focuses on **trustworthy multimodal AI** and **physically grounded world models**. I have introduced [TruthfulVQA](https://truthfulvqa.github.io/) (**ACL 2026**), the first benchmark for multimodal truthfulness, and [Debate with Images](https://mm-deception.github.io/) (preprint, 2025), a visually grounded multi-agent debate framework for detecting deception in multimodal LLMs, along with [MM-DeceptionBench](https://mm-deception.github.io/), the first benchmark for multimodal deception. I am also a co-first author of the [AI Deception Survey](https://arxiv.org/abs/2511.22619), the first systematic international survey on AI deception, with Turing Award laureate Andrew Yao as corresponding author.
+My research focuses on **trustworthy multimodal AI** and **physically grounded world models**. I have introduced [TruthfulVQA](https://truthfulvqa.github.io/) (**ACL 2026**), the first benchmark for multimodal truthfulness, and [Debate with Images](https://mm-deception.github.io/) (**ICML 2026**), a visually grounded multi-agent debate framework for detecting deception in multimodal LLMs, along with [MM-DeceptionBench](https://mm-deception.github.io/), the first benchmark for multimodal deception. I am also a co-first author of the [AI Deception Survey](https://arxiv.org/abs/2511.22619), the first systematic international survey on AI deception, with Turing Award laureate Andrew Yao as corresponding author.
 
 ## News
 
+- _2026.05_ &nbsp; [Debate with Images](https://mm-deception.github.io/) accepted at **ICML 2026**.
 - _2026.04_ &nbsp; One paper accepted at **ACL 2026**.
 - _2025.11_ &nbsp; Our survey [AI Deception](https://arxiv.org/abs/2511.22619) released, the first systematic international report on AI deception, with Turing Award laureate Andrew Yao as the corresponding author.
-- _2026.09_ &nbsp; [Debate with Images](https://mm-deception.github.io/) released, introducing MM-DeceptionBench and a multi-agent debate framework for multimodal deception detection.
+- _2025.09_ &nbsp; [Debate with Images](https://mm-deception.github.io/) released, introducing MM-DeceptionBench and a multi-agent debate framework for multimodal deception detection.
 - _2025.06_ &nbsp; [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) open-sourced at PKU-Alignment.
-  [Debate with Images](https://mm-deception.github.io/) released, introducing MM-DeceptionBench and a multi-agent debate framework for multimodal deception detection.
 - _2025.05_ &nbsp; Awarded Beijing Natural Science Foundation Undergraduate _QiYan_ Research Program Grant.
 
 ## Honors and Awards

@@ -26,10 +26,11 @@ display_name: 方思童
 
 我是[北京大学](https://www.pku.edu.cn/)[元培学院](https://yuanpei.pku.edu.cn/)人工智能专业本科生，导师为[杨耀东](https://www.yangyaodong.com/)助理教授。我是[北大对齐小组](https://github.com/PKU-Alignment)成员，同时担任逆矩阵科技（Physis AI）研究员。
 
-我的研究聚焦于**可信多模态人工智能**与**世界模型**。我提出了 [TruthfulVQA](https://truthfulvqa.github.io/)（**ACL 2026**），首个多模态真实性评测基准；以及 [Debate with Images](https://mm-deception.github.io/)（preprint, 2025），基于视觉证据的多智能体辩论欺骗检测框架，与 [MM-DeceptionBench](https://mm-deception.github.io/)，首个多模态欺骗评测基准。我也是 [AI Deception Survey](https://arxiv.org/abs/2511.22619) 的共同第一作者，该报告是首个国际 AI 欺骗系统性综述，图灵奖得主姚期智院士为通讯作者。
+我的研究聚焦于**可信多模态人工智能**与**世界模型**。我提出了 [TruthfulVQA](https://truthfulvqa.github.io/)（**ACL 2026**），首个多模态真实性评测基准；以及 [Debate with Images](https://mm-deception.github.io/)（**ICML 2026**），基于视觉证据的多智能体辩论欺骗检测框架，与 [MM-DeceptionBench](https://mm-deception.github.io/)，首个多模态欺骗评测基准。我也是 [AI Deception Survey](https://arxiv.org/abs/2511.22619) 的共同第一作者，该报告是首个国际 AI 欺骗系统性综述，图灵奖得主姚期智院士为通讯作者。
 
 ## 动态
 
+- _2026.05_ &nbsp; [Debate with Images](https://mm-deception.github.io/) 被 **ICML 2026** 录用。
 - _2026.04_ &nbsp; 一篇论文被 **ACL 2026** 录用。
 - _2025.11_ &nbsp; [AI Deception](https://arxiv.org/abs/2511.22619) 综述发布，首个国际 AI 欺骗系统性报告，图灵奖得主姚期智院士为通讯作者。
 - _2025.09_ &nbsp; [Debate with Images](https://mm-deception.github.io/) 发布，提出 MM-DeceptionBench 与多智能体辩论欺骗检测框架。
