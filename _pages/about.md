@@ -22,10 +22,12 @@ latest_posts:
 
 I am a senior undergraduate majoring in Artificial Intelligence at [Yuanpei College](https://yuanpei.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/), advised by [Prof. Yaodong Yang](https://www.yangyaodong.com/). I am a member of the [PKU Alignment Group](https://github.com/PKU-Alignment) and a Research Scientist at Physis AI.
 
-My research focuses on **trustworthy multimodal AI** and **physically grounded world models**. I have introduced [TruthfulVQA](https://truthfulvqa.github.io/) (**ACL 2026**), the first benchmark for multimodal truthfulness, and [Debate with Images](https://mm-deception.github.io/) (**ICML 2026**), a visually grounded multi-agent debate framework for detecting deception in multimodal LLMs, along with [MM-DeceptionBench](https://mm-deception.github.io/), the first benchmark for multimodal deception. I am also a co-first author of the [AI Deception Survey](https://arxiv.org/abs/2511.22619), the first systematic international survey on AI deception, with Turing Award laureate Andrew Yao as corresponding author.
+My research focuses on **trustworthy multimodal AI** and **world models that truly understand physics**. I have introduced [TruthfulVQA](https://truthfulvqa.github.io/) (**ACL 2026**), the first benchmark for multimodal truthfulness, and [Debate with Images](https://mm-deception.github.io/) (**ICML 2026**), a visually grounded multi-agent debate framework for detecting deception in multimodal LLMs, along with [MM-DeceptionBench](https://mm-deception.github.io/), the first benchmark for multimodal deception. I am also a co-first author of the [AI Deception Survey](https://arxiv.org/abs/2511.22619), the first systematic international survey on AI deception, with Turing Award laureate Andrew Yao as corresponding author.
 
 ## News
 
+- _2026.08_ &nbsp; Awarded the **SenseTime Scholarship**, as one of only 30 recipients nationwide.
+- _2026.08_ &nbsp; One paper accepted by **COLM 2026**.
 - _2026.05_ &nbsp; [Debate with Images](https://mm-deception.github.io/) accepted at **ICML 2026**.
 - _2026.04_ &nbsp; [TruthfulVQA](https://truthfulvqa.github.io/) accepted at **ACL 2026**.
 - _2025.11_ &nbsp; Our survey [AI Deception](https://arxiv.org/abs/2511.22619) released, the first systematic international report on AI deception, with Turing Award laureate Andrew Yao as the corresponding author.
@@ -35,6 +37,7 @@ My research focuses on **trustworthy multimodal AI** and **physically grounded w
 
 ## Honors and Awards
 
+- _2026_ &nbsp; SenseTime Scholarship (30 recipients nationwide)
 - _2025_ &nbsp; Yuanpei Young Scholar (10 annual recipients)
 - _2025_ &nbsp; Beijing Natural Science Foundation Undergraduate _QiYan_ Research Program (Sole recipient in the cohort)
 - _2025_ &nbsp; Soong Ching Ling Future Scholarship (national undergraduate scholarship)
@@ -53,7 +56,7 @@ My research focuses on **trustworthy multimodal AI** and **physically grounded w
 
 <div class="experience-item" style="margin-bottom: 1rem;">
 <strong>Physis AI (逆矩阵科技)</strong> · Research Scientist · <em>2026.02 – Present</em><br>
-Building physically grounded world foundation models with reinforcement learning.
+Building world foundation models that truly understand physics.
 </div>
 
 <div class="experience-item" style="margin-bottom: 1rem;">

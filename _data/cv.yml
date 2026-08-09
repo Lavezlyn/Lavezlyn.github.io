@@ -4,7 +4,7 @@ cv:
   email: sitongfang1@gmail.com
   website: https://sitongfang.com
   summary: >
-    Research Interests: Trustworthy multimodal AI, physically grounded world models, and AI alignment.
+    Research Interests: Trustworthy multimodal AI, world models that truly understand physics, and AI alignment.
 
   sections:
     Education:
@@ -15,7 +15,7 @@ cv:
         end_date: "Present"
         location: Beijing, China
         highlights:
-          - "**Honors:** Yuanpei Young Scholar; Boya Scholarship; Soong Ching Ling Future Scholarship; Beijing Natural Science Foundation *QiYan* Research Program; Freshman Scholarship (First Prize)"
+          - "**Honors:** SenseTime Scholarship; Yuanpei Young Scholar; Boya Scholarship; Soong Ching Ling Future Scholarship; Beijing Natural Science Foundation *QiYan* Research Program; Freshman Scholarship (First Prize)"
           - "**Technical Skills:** Python, PyTorch, vLLM, DeepSpeed, Ray, CUDA, C/C++, LaTeX"
 
     Publications:
@@ -43,7 +43,7 @@ cv:
         start_date: "2026"
         end_date: "Present"
         highlights:
-          - "World model startup building physically grounded world foundation models with reinforcement learning. Backed by Hillhouse Ventures and Yanyuan Capital."
+          - "World model startup building world foundation models that truly understand physics. Backed by Hillhouse Ventures and Yanyuan Capital."
 
       - company: PKU-Alignment Group, Peking University
         position: Research Intern
@@ -66,6 +66,10 @@ cv:
           - "Contributed to **HKGAI-V1**, the Hong Kong government's first locally fine-tuned generative AI model based on DeepSeek, supporting Cantonese, Mandarin, and English with localized safety alignment."
 
     Honors and Awards:
+      - title: SenseTime Scholarship
+        date: "2026"
+        summary: "30 recipients nationwide"
+
       - title: "Yuanpei Young Scholar, Peking University"
         date: "2025"
         summary: "10 annual recipients"

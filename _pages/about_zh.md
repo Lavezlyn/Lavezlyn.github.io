@@ -30,6 +30,8 @@ display_name: 方思童
 
 ## 动态
 
+- _2026.08_ &nbsp; 获得**商汤奖学金（SenseTime Scholarship）**，全国仅 30 人。
+- _2026.08_ &nbsp; 一篇论文被 **COLM 2026** 录用。
 - _2026.05_ &nbsp; [Debate with Images](https://mm-deception.github.io/) 被 **ICML 2026** 录用。
 - _2026.04_ &nbsp; [TruthfulVQA](https://truthfulvqa.github.io/) 被 **ACL 2026** 录用。
 - _2025.11_ &nbsp; [AI Deception](https://arxiv.org/abs/2511.22619) 综述发布，首个国际 AI 欺骗系统性报告，图灵奖得主姚期智院士为通讯作者。
@@ -39,6 +41,7 @@ display_name: 方思童
 
 ## 荣誉与奖项
 
+- _2026_ &nbsp; 商汤奖学金（全国仅 30 人）
 - _2025_ &nbsp; 元培青年学者（仅 10 人）
 - _2025_ &nbsp; 宋庆龄未来助学金
 - _2025_ &nbsp; 受北京市自然科学基金本科生"启研"计划资助 (2023级人工智能方向本科生唯一)
@@ -59,7 +62,7 @@ display_name: 方思童
 
 <div class="experience-item" style="margin-bottom: 1rem;">
 <strong>逆矩阵科技（Physis AI）</strong> · 研究员 · <em>2026.02 – 至今</em><br>
-致力于构建物理真实的世界基础模型与强化学习。
+致力于构建真正理解物理规律的世界基础模型。
 </div>
 
 <div class="experience-item" style="margin-bottom: 1rem;">

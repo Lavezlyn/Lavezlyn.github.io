@@ -2,11 +2,15 @@
 
 \usepackage{fontspec}
 \usepackage{xeCJK}
-\setCJKmainfont[
-  Path=/mnt/users/sitong/.local/share/fonts/,
-  Extension=.otf,
-  BoldFont=NotoSerifSC-Bold,
-]{NotoSerifSC-Regular}
+\IfFontExistsTF{Noto Serif CJK SC}{
+  \setCJKmainfont{Noto Serif CJK SC}
+}{
+  \IfFontExistsTF{Songti SC}{
+    \setCJKmainfont{Songti SC}
+  }{
+    \setCJKmainfont{FandolSong-Regular}
+  }
+}
 \usepackage[margin=1.6cm, top=1.4cm, bottom=1.4cm]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -85,7 +89,7 @@
 \cventry{北京大学}{学士，2023\,--\,2027（预计）}
 \noindent 元培学院，人工智能专业 \\[2pt]
 \begin{itemize}
-  \item \textbf{个人荣誉：}元培青年学者；博雅奖学金；宋庆龄未来助学金；北京市自然科学基金本科生"启研"计划；新生奖学金（一等）
+  \item \textbf{个人荣誉：}商汤奖学金；元培青年学者；博雅奖学金；宋庆龄未来助学金；北京市自然科学基金本科生"启研"计划；新生奖学金（一等）
   \item \textbf{技术技能：}Python, PyTorch, vLLM, DeepSpeed, Ray, CUDA, C/C++, \LaTeX
 \end{itemize}
 
@@ -124,7 +128,7 @@ Boyuan Chen*, \me{}*, Jiaming Ji*, \ldots, Yaodong Yang\textsuperscript{\dag}, T
 \cventry{逆矩阵科技（Physis AI）}{2026.02\,--\,至今}
 \noindent 研究员
 \begin{itemize}
-  \item 世界模型创业公司，致力于构建物理真实的世界基础模型与强化学习。高瓴创投、燕缘创投联合投资。
+  \item 世界模型创业公司，致力于构建真正理解物理规律的世界基础模型。高瓴创投、燕缘创投联合投资。
 \end{itemize}
 
 \vspace{0.3em}
@@ -152,6 +156,7 @@ Boyuan Chen*, \me{}*, Jiaming Ji*, \ldots, Yaodong Yang\textsuperscript{\dag}, T
 
 \renewcommand{\arraystretch}{1.15}
 \begin{tabularx}{\textwidth}{@{}l@{\hspace{1em}}X@{}}
+2026 & 商汤奖学金 \hfill {\small\textit{全国仅30人}} \\
 2025 & 元培青年学者 \hfill {\small\textit{仅10人}} \\
 2025 & 北京市自然科学基金本科生"启研"计划 \hfill {\small\textit{年级唯一}} \\
 2025 & 宋庆龄未来助学金 \hfill {\small\textit{全校仅10人}} \\

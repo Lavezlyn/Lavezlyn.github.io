@@ -1,19 +1,31 @@
 metadata:
-  last_updated: '2026-04-08'
+  last_updated: "2026-08-09"
 papers:
+  86JM-y0AAAAJ:2osOgNQ5qMEC:
+    citations: 0
+    title: "When Slower Isn’t Truer: Inverse Scaling Law of Truthfulness in Multimodal Reasoning"
+    year: "2026"
+  86JM-y0AAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: "A Blind Spot in Alignment: Quantifying Biosecurity Risks in Large Language Models"
+    year: "2026"
   86JM-y0AAAAJ:9yKSN-GCB0IC:
     citations: 0
-    title: 'Debate with Images: Detecting Deceptive Behaviors in Multimodal Large Language Models'
-    year: '2025'
+    title: "Debate with Images: Detecting Deceptive Behaviors in Multimodal Large Language Models"
+    year: "2025"
+  86JM-y0AAAAJ:UeHWp8X0CEIC:
+    citations: 5
+    title: "Mitigating deceptive alignment via self-monitoring, 2025"
+    year: "Unknown Year"
   86JM-y0AAAAJ:d1gkVwhDpl0C:
-    citations: 2
-    title: 'Ai deception: Risks, dynamics, and controls'
-    year: '2025'
+    citations: 11
+    title: "AI Deception: Risks, Dynamics, and Controls"
+    year: "2025"
   86JM-y0AAAAJ:u-x6o8ySG0sC:
-    citations: 17
-    title: Mitigating deceptive alignment via self-monitoring
-    year: '2025'
+    citations: 39
+    title: "Mitigating deceptive alignment via self-monitoring"
+    year: "2025"
   86JM-y0AAAAJ:u5HHmVD_uO8C:
-    citations: 1
-    title: 'The Mirage of Multimodality: Where Truth is Tested and Honesty Unravels'
-    year: '2025'
+    citations: 2
+    title: "The Mirage of Multimodality: Where Truth is Tested and Honesty Unravels"
+    year: "2025"
