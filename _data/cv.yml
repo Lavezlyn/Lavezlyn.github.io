@@ -15,7 +15,7 @@ cv:
         end_date: "Present"
         location: Beijing, China
         highlights:
-          - "**Honors:** SenseTime Scholarship; Yuanpei Young Scholar; Boya Scholarship; Soong Ching Ling Future Scholarship; Beijing Natural Science Foundation *QiYan* Research Program; Freshman Scholarship (First Prize)"
+          - "**Honors:** SenseTime Scholarship; Yuanpei Young Scholar; Boya Scholarship; Beijing Natural Science Foundation *QiYan* Research Program; Freshman Scholarship (First Prize)"
           - "**Technical Skills:** Python, PyTorch, vLLM, DeepSpeed, Ray, CUDA, C/C++, LaTeX"
 
     Publications:
@@ -93,10 +93,7 @@ cv:
 
       - title: "Beijing Natural Science Foundation Undergraduate QiYan Research Program"
         date: "2025"
-        summary: "Sole recipient among PKU AI undergraduates admitted in 2023"
-
-      - title: Soong Ching Ling Future Scholarship
-        date: "2025"
+        summary: "Sole recipient among PKU’s _Artificial Intelligence_ majors, 2023 cohort"
 
       - title: Boya Scholarship, Peking University
         date: "2024"

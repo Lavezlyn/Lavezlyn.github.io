@@ -66,8 +66,7 @@ I am a senior undergraduate in Artificial Intelligence at [Yuanpei College](http
 
 - _2026_ &nbsp; <strong class="distinction">SenseTime Scholarship</strong> · 30 recipients nationwide
 - _2025_ &nbsp; **Yuanpei Young Scholar**, Peking University · 10 selected annually
-- _2025_ &nbsp; **QiYan Undergraduate Research Grant**, Beijing Natural Science Foundation · Sole recipient among PKU AI undergraduates admitted in 2023
-- _2025_ &nbsp; **Soong Ching Ling Future Scholarship**
+- _2025_ &nbsp; **QiYan Undergraduate Research Grant**, Beijing Natural Science Foundation · Sole recipient among PKU’s _Artificial Intelligence_ majors, 2023 cohort
 - _2023_ &nbsp; <strong class="distinction">1st in Fujian Province</strong>, National College Entrance Examination (Physics Track)
 
 ## Experience
