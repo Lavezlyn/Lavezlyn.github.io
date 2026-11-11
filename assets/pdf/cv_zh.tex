@@ -51,7 +51,8 @@
 
 % Publication entry: title on left, venue+link on right
 \newcommand{\pubentry}[3]{%
-  \noindent\begin{tabularx}{\textwidth}{@{}X r@{}}
+  \Needspace{5\baselineskip}%
+  \noindent\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X r@{}}
     \textbf{#1} & #2\enspace\href{#3}{\faFilePdf} \\
   \end{tabularx}\vspace{-2pt}%
 }
@@ -127,12 +128,30 @@ Kaile Wang*, Hantao Lou*, Tianyi Qiu*, Sebastian Sunday-Grève, \me{}, Xinxiong 
 
 \vspace{0.3em}
 
+\pubentry{A Blind Spot in Alignment: Quantifying Biosecurity Risks in Large Language Models}{\venue{COLM 2026}}{https://arxiv.org/abs/2608.02684}
+Shu Quan, Tianfang Hao, \me{}, He Geng, Jiayi Zhou, Boyuan Chen, Kaile Wang, Donghai Hong, Juntao Dai, Yaodong Yang, Jiaming Ji
+\begin{itemize}
+  \item 提出 \textbf{SPIKE-Bench}，结合功能性有害率（Functional Harmfulness Rate）评估语言模型的生物安全风险。
+\end{itemize}
+
+\vspace{0.3em}
+
 \pubentry{AI Deception: Risks, Dynamics, and Controls}{}{https://arxiv.org/abs/2511.22619}
 Boyuan Chen*, \me{}*, Jiaming Ji*, \ldots, Yaodong Yang\textsuperscript{\dag}, Tiejun Huang\textsuperscript{\dag}, Ya-Qin Zhang\textsuperscript{\dag}, HongJiang Zhang\textsuperscript{\dag}, Andrew Yao\textsuperscript{\dag}
 \hfill {\small *\,共同贡献 \enspace \dag\,通讯作者}
 \begin{itemize}
   \item 首篇AI欺骗系统性国际报告（50+位作者），图灵奖得主姚期智院士任通讯作者。
   \item 基于信号理论定义AI欺骗，分析欺骗循环机制，提出缓解策略。
+\end{itemize}
+
+% ============================================================================
+\vspace{0.3em}
+
+\pubentry{Mitigating Deceptive Alignment via Self-Monitoring}{\venue{Preprint}}{https://arxiv.org/abs/2505.18807}
+Jiaming Ji*, Wenqi Chen*, Kaile Wang, Donghai Hong, \me{}, Boyuan Chen, Jiayi Zhou, Juntao Dai, Sirui Han, Yike Guo, Yaodong Yang
+\hfill {\small *\,共同贡献}
+\begin{itemize}
+  \item 提出 \textbf{CoT Monitor+}，在思维链推理中嵌入自我监控机制，检测并抑制欺骗性对齐。
 \end{itemize}
 
 % ============================================================================
