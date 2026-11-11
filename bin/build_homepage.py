@@ -11,6 +11,7 @@ assets/img/publication_preview/. Keep .github/workflows/deploy.yml in sync.
 from pathlib import Path
 import re, html, shutil
 import argparse
+import yaml
 SRC = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description='Build the approved bilingual homepage into a Jekyll output directory.')
 parser.add_argument('--output', type=Path, default=SRC / '_site')
@@ -44,10 +45,10 @@ short = {'fang2026truthful': 'Introducing TruthfulVQA and an inverse scaling law
 
 # Match the original Jekyll bibliography's export behavior: website-only fields
 # and display superscripts must not become part of a reader's citation.
-bibtex_config = re.search(r"filtered_bibtex_keywords:\s*\[(.*?)\]", (SRC / "_config.yml").read_text(), re.S)
-if not bibtex_config:
-    raise ValueError("Missing filtered_bibtex_keywords in _config.yml")
-filtered_bibtex_fields = set(re.findall(r"[a-z_]+", bibtex_config[1])) | {"key", "raw"}
+bibtex_config = yaml.safe_load((SRC / "_config.yml").read_text()).get("filtered_bibtex_keywords")
+if not isinstance(bibtex_config, list) or not all(isinstance(field, str) for field in bibtex_config):
+    raise ValueError("filtered_bibtex_keywords must be a list of strings in _config.yml")
+filtered_bibtex_fields = set(bibtex_config) | {"key", "raw"}
 
 def citation(p, paper_url):
     kind = re.match(r"@(\w+)", p["raw"])[1]

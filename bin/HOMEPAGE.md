@@ -8,6 +8,7 @@ fonts live in `assets/homepage/`; publication figures live in
 For a homepage-only preview:
 
 ```sh
+python3 -m pip install pyyaml
 python3 bin/build_homepage.py --output _site
 python3 -m http.server 8765 --directory _site
 ```
