@@ -14,6 +14,7 @@
 \usepackage[margin=1.6cm, top=1.4cm, bottom=1.4cm]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
+\usepackage{needspace}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{fontawesome5}
@@ -39,6 +40,8 @@
 
 % No page numbers
 \pagestyle{empty}
+\clubpenalty=10000
+\widowpenalty=10000
 
 % Compact lists
 \setlist[itemize]{leftmargin=1.5em, itemsep=1pt, topsep=2pt, parsep=0pt}
@@ -48,13 +51,15 @@
 
 % Publication entry: title on left, venue+link on right
 \newcommand{\pubentry}[3]{%
-  \noindent\begin{tabularx}{\textwidth}{@{}X r@{}}
+  \Needspace{5\baselineskip}%
+  \noindent\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X r@{}}
     \textbf{#1} & #2\enspace\href{#3}{\faFilePdf} \\
   \end{tabularx}\vspace{-2pt}%
 }
 
 % Generic entry: left bold + right info
 \newcommand{\cventry}[2]{%
+  \Needspace{4\baselineskip}%
   \noindent\begin{tabularx}{\textwidth}{@{}X r@{}}
     \textbf{#1} & {#2} \\
   \end{tabularx}\vspace{-2pt}%
@@ -78,7 +83,7 @@
   \quad$\cdot$\quad
   \faGithub~\href{https://github.com/Lavezlyn}{Lavezlyn}
   \\[4pt]
-  \textit{研究兴趣：可信多模态人工智能、世界模型、人工智能对齐与安全}
+  \textit{面向物理智能的基础模型训练。研究兴趣：世界模型与可信多模态人工智能。}
 \end{center}
 
 \vspace{-0.4em}
@@ -89,7 +94,7 @@
 \cventry{北京大学}{学士，2023\,--\,2027（预计）}
 \noindent 元培学院，人工智能专业 \\[2pt]
 \begin{itemize}
-  \item \textbf{个人荣誉：}商汤奖学金；元培青年学者；博雅奖学金；宋庆龄未来助学金；北京市自然科学基金本科生"启研"计划；新生奖学金（一等）
+  \item \textbf{个人荣誉：}商汤奖学金；元培青年学者；博雅奖学金；宋庆龄未来助学金；北京市自然科学基金本科生“启研”计划；新生奖学金（一等）
   \item \textbf{技术技能：}Python, PyTorch, vLLM, DeepSpeed, Ray, CUDA, C/C++, \LaTeX
 \end{itemize}
 
@@ -97,7 +102,7 @@
 \section{学术成果}
 
 \pubentry{When Slower Isn't Truer: Inverse Scaling Law of Truthfulness in Multimodal Reasoning}{\venue{ACL 2026}}{https://arxiv.org/abs/2505.20214}
-\me{},Wenjing Cao, Jiahao Li, Xuyao Wang, Chi-Min Chan, Sirui Han, Juntao Dai, Yike Guo, Yaodong Yang, Jiaming Ji
+\me{}, Wenjing Cao, Jiahao Li, Xuyao Wang, Chi-Min Chan, Sirui Han, Juntao Dai, Yike Guo, Yaodong Yang, Jiaming Ji
 \begin{itemize}
   \item 发现逆缩放定律：更慢的推理模型在多模态场景中反而更不真实。
   \item 提出 \textbf{TruthfulVQA}，首个多模态真实性评测基准（5,000+图像），以及 \textbf{TruthfulJudge} 人机协同评测框架。
@@ -105,8 +110,8 @@
 
 \vspace{0.3em}
 
-\pubentry{Debate with Images: Detecting Deceptive Behaviors in Multimodal LLMs}{\venue{ICML 2026}}{https://arxiv.org/abs/2512.00349}
-\me{},Shiyi Hou, Kaile Wang, Boyuan Chen, Donghai Hong, Jiayi Zhou, Juntao Dai, Yaodong Yang, Jiaming Ji
+\pubentry{Debate with Images: Detecting Deceptive Behaviors in Multimodal Large Language Models}{\venue{ICML 2026}}{https://arxiv.org/abs/2512.00349}
+\me{}, Shiyi Hou, Kaile Wang, Boyuan Chen, Donghai Hong, Jiayi Zhou, Juntao Dai, Yaodong Yang, Jiaming Ji
 \begin{itemize}
   \item 提出 \textbf{MM-DeceptionBench}，首个多模态大模型欺骗行为评测基准。
   \item 提出 \textbf{Debate with Images}，基于视觉证据的多智能体辩论框架，显著提升欺骗检测准确率。
@@ -114,41 +119,67 @@
 
 \vspace{0.3em}
 
-\pubentry{AI Deception: Risks, Dynamics, and Controls}{\venue{在审}}{https://arxiv.org/abs/2511.22619}
+\pubentry{AI Alignment Can Build Moral Autonomy}{\venue{NeurIPS 2026}}{https://openreview.net/forum?id=htzFr3tI5z}
+Kaile Wang*, Hantao Lou*, Tianyi Qiu*, Sebastian Sunday-Grève, \me{}, Xinxiong Wu, Jiaming Ji, Yaodong Yang
+\hfill {\small *\,共同贡献}
+\begin{itemize}
+  \item 探讨以道德自主性为对齐目标，强调反思性认可、明确的原则与实践智慧。
+\end{itemize}
+
+\vspace{0.3em}
+
+\pubentry{A Blind Spot in Alignment: Quantifying Biosecurity Risks in Large Language Models}{\venue{COLM 2026}}{https://arxiv.org/abs/2608.02684}
+Shu Quan, Tianfang Hao, \me{}, He Geng, Jiayi Zhou, Boyuan Chen, Kaile Wang, Donghai Hong, Juntao Dai, Yaodong Yang, Jiaming Ji
+\begin{itemize}
+  \item 提出 \textbf{SPIKE-Bench}，结合功能性有害率（Functional Harmfulness Rate）评估语言模型的生物安全风险。
+\end{itemize}
+
+\vspace{0.3em}
+
+\pubentry{AI Deception: Risks, Dynamics, and Controls}{}{https://arxiv.org/abs/2511.22619}
 Boyuan Chen*, \me{}*, Jiaming Ji*, \ldots, Yaodong Yang\textsuperscript{\dag}, Tiejun Huang\textsuperscript{\dag}, Ya-Qin Zhang\textsuperscript{\dag}, HongJiang Zhang\textsuperscript{\dag}, Andrew Yao\textsuperscript{\dag}
 \hfill {\small *\,共同贡献 \enspace \dag\,通讯作者}
 \begin{itemize}
-  \item 首篇AI欺骗系统性国际报告（50+位作者），图灵奖得主姚期智院士任通讯作者。投稿至 ACM Computing Surveys。
+  \item 首篇AI欺骗系统性国际报告（50+位作者），图灵奖得主姚期智院士任通讯作者。
   \item 基于信号理论定义AI欺骗，分析欺骗循环机制，提出缓解策略。
+\end{itemize}
+
+% ============================================================================
+\vspace{0.3em}
+
+\pubentry{Mitigating Deceptive Alignment via Self-Monitoring}{\venue{Preprint}}{https://arxiv.org/abs/2505.18807}
+Jiaming Ji*, Wenqi Chen*, Kaile Wang, Donghai Hong, \me{}, Boyuan Chen, Jiayi Zhou, Juntao Dai, Sirui Han, Yike Guo, Yaodong Yang
+\hfill {\small *\,共同贡献}
+\begin{itemize}
+  \item 提出 \textbf{CoT Monitor+}，在思维链推理中嵌入自我监控机制，检测并抑制欺骗性对齐。
 \end{itemize}
 
 % ============================================================================
 \section{科研经历}
 
 \cventry{逆矩阵科技（Physis AI）}{2026.02\,--\,至今}
-\noindent 研究员
+\noindent 算法合伙人
 \begin{itemize}
-  \item 世界模型创业公司，致力于构建真正理解物理规律的世界基础模型。高瓴创投、燕缘创投联合投资。
+  \item 训练能够学习物理动态、预测行动后果的基础模型。
 \end{itemize}
 
 \vspace{0.3em}
 
-\cventry{北京大学对齐小组（PKU-Alignment）}{2024.12\,--\,至今}
-\noindent 研究实习生 \enspace$\cdot$\enspace 导师：\href{https://www.yangyaodong.com/}{杨耀东助理教授}
+\cventry{北京大学对齐小组（PKU-Alignment）}{2024.12\,--\,2026.01}
+\noindent 研究员 \enspace$\cdot$\enspace 导师：\href{https://www.yangyaodong.com/}{杨耀东老师}
 \begin{itemize}
   \item 主导开发 \textbf{TruthfulVQA}，首个多模态真实性评测基准（ACL 2026）。
   \item 主导开发 \textbf{Debate with Images}（ICML 2026），基于视觉的多智能体辩论欺骗检测框架，以及 \textbf{MM-DeceptionBench}，首个多模态欺骗评测基准。
   \item 共同一作 \textbf{AI Deception Survey}，图灵奖得主姚期智院士任通讯作者。
-  \item \href{https://github.com/PKU-Alignment/align-anything}{\textbf{Align-Anything}}（GitHub 4,600+ 星）核心贡献者，全模态对齐框架。
-  \item \href{https://github.com/PKU-Alignment/eval-anything}{\textbf{Eval-Anything}} 核心贡献者，全模态安全评测框架。
+  \item 多模态后训练框架 \href{https://github.com/PKU-Alignment/align-anything}{\textbf{Align-Anything}} 和多模态评测框架 \href{https://github.com/PKU-Alignment/eval-anything}{\textbf{Eval-Anything}} 的核心贡献者与维护者。
 \end{itemize}
 
 \vspace{0.3em}
 
 \cventry{HKGAI研发中心 / 香港科技大学}{2024.12\,--\,2025.03}
-\noindent 研究实习生
+\noindent 研究员
 \begin{itemize}
-  \item 参与 \textbf{HKGAI-V1} 开发，香港政府首个基于 DeepSeek 的本地化微调生成式AI模型，支持粤语、普通话和英语，具备本地化安全对齐能力。
+  \item 参与面向香港本地需求的多语言大模型 \href{https://arxiv.org/abs/2507.11502}{\textbf{HKGAI-V1}} 的训练，并获香港生成式人工智能研发中心出具的贡献确认函。
 \end{itemize}
 
 % ============================================================================
@@ -157,15 +188,15 @@ Boyuan Chen*, \me{}*, Jiaming Ji*, \ldots, Yaodong Yang\textsuperscript{\dag}, T
 \renewcommand{\arraystretch}{1.15}
 \begin{tabularx}{\textwidth}{@{}l@{\hspace{1em}}X@{}}
 2026 & 商汤奖学金 \hfill {\small\textit{全国仅30人}} \\
-2025 & 元培青年学者 \hfill {\small\textit{仅10人}} \\
-2025 & 北京市自然科学基金本科生"启研"计划 \hfill {\small\textit{年级唯一}} \\
-2025 & 宋庆龄未来助学金 \hfill {\small\textit{全校仅10人}} \\
+2025 & 元培青年学者 \hfill {\small\textit{每年10人}} \\
+2025 & 北京市自然科学基金本科生“启研”计划 \hfill {\small\textit{北大2023级人工智能方向本科生唯一获得者}} \\
+2025 & 宋庆龄未来助学金 \\
 2024 & 北京大学博雅奖学金 \\
 2024 & 北京大学招商证券奖学金 \\
 2024 & 北京大学学习优秀奖 \\
 2024 & 北京大学社会工作奖 \\
 2023 & 北京大学新生奖学金（一等） \\
-2023 & 福建省高考理科第一名 \\
+2023 & 福建省高考物理类第一名 \\
 \end{tabularx}
 
 \end{document}
