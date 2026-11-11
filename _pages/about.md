@@ -2,8 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: >
-  Undergraduate Student, <a href="https://yuanpei.pku.edu.cn/">Yuanpei College</a>, <a href="https://www.pku.edu.cn/">Peking University</a>
 
 profile:
   align: left
@@ -20,31 +18,36 @@ latest_posts:
   enabled: false
 ---
 
-I am a senior undergraduate majoring in Artificial Intelligence at [Yuanpei College](https://yuanpei.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/), advised by [Prof. Yaodong Yang](https://www.yangyaodong.com/). I am a member of the [PKU Alignment Group](https://github.com/PKU-Alignment) and a Research Scientist at Physis AI.
+I am a partner at [Physis AI](https://physis-ai.com/), a world model startup building general-purpose foundation models for physical intelligence. I work on training foundation models that learn physical dynamics and predict the consequences of actions. My research spans **world models** and **trustworthy multimodal AI**.
 
-My research focuses on **trustworthy multimodal AI** and **world models that truly understand physics**. I have introduced [TruthfulVQA](https://truthfulvqa.github.io/) (**ACL 2026**), the first benchmark for multimodal truthfulness, and [Debate with Images](https://mm-deception.github.io/) (**ICML 2026**), a visually grounded multi-agent debate framework for detecting deception in multimodal LLMs, along with [MM-DeceptionBench](https://mm-deception.github.io/), the first benchmark for multimodal deception. I am also a co-first author of the [AI Deception Survey](https://arxiv.org/abs/2511.22619), the first systematic international survey on AI deception, with Turing Award laureate Andrew Yao as corresponding author.
+I am a senior undergraduate in Artificial Intelligence at [Yuanpei College](https://yuanpei.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/), advised by [Prof. Yaodong Yang](https://www.yangyaodong.com/) in the [PKU Alignment Group](https://github.com/PKU-Alignment). I am a recipient of the **SenseTime Scholarship** (30 recipients nationwide) and a **Yuanpei Young Scholar** (10 selected annually). My research has been supported by the **Beijing Natural Science Foundation’s QiYan program**.
 
 ## News
 
-- _2026.08_ &nbsp; Awarded the **SenseTime Scholarship**, as one of only 30 recipients nationwide.
-- _2026.08_ &nbsp; One paper accepted by **COLM 2026**.
-- _2026.05_ &nbsp; [Debate with Images](https://mm-deception.github.io/) accepted at **ICML 2026**.
-- _2026.04_ &nbsp; [TruthfulVQA](https://truthfulvqa.github.io/) accepted at **ACL 2026**.
-- _2025.11_ &nbsp; Our survey [AI Deception](https://arxiv.org/abs/2511.22619) released, the first systematic international report on AI deception, with Turing Award laureate Andrew Yao as the corresponding author.
-- _2025.09_ &nbsp; [Debate with Images](https://mm-deception.github.io/) released, introducing MM-DeceptionBench and a multi-agent debate framework for multimodal deception detection.
-- _2025.06_ &nbsp; [Eval-Anything](https://github.com/PKU-Alignment/eval-anything) open-sourced at PKU-Alignment.
-- _2025.05_ &nbsp; Awarded Beijing Natural Science Foundation Undergraduate _QiYan_ Research Program Grant.
+- _2026.10_ &nbsp; Physis AI released [PhysisServe](https://physis-ai.com/blog/physisserve/en), an open-source inference framework for autoregressive denoising models.
+- _2026.08_ &nbsp; Received the **SenseTime Scholarship** (30 recipients nationwide).
+- _2026.06_ &nbsp; Physis AI raised [over US$100M in its Seed++ round](https://www.36kr.com/p/3826129009234824).
+- _2026.06_ &nbsp; Physis AI introduced [Physis-v0.1](https://finance.sina.com.cn/meeting/2026-06-14/doc-inicnpyv4990482.shtml) at the BAAI Conference.
+- _2026.05_ &nbsp; Our [Debate with Images](https://mm-deception.github.io/) paper was accepted to **ICML 2026**.
+- _2026.04_ &nbsp; Our [TruthfulVQA](https://truthfulvqa.github.io/) paper was accepted to **ACL 2026**.
+- _2025.11_ &nbsp; Our survey, [AI Deception: Risks, Dynamics, and Controls](https://arxiv.org/abs/2511.22619), is now available.
+- _2025.09_ &nbsp; Released [Debate with Images](https://mm-deception.github.io/) and MM-DeceptionBench for studying deception in multimodal models.
+- _2025.06_ &nbsp; PKU Alignment released [Eval-Anything](https://github.com/PKU-Alignment/eval-anything), a framework for multimodal evaluation.
+- _2025.05_ &nbsp; Received research funding through the Beijing Natural Science Foundation’s **QiYan program**.
 
-## Honors and Awards
+## Physis AI
 
-- _2026_ &nbsp; SenseTime Scholarship (30 recipients nationwide)
-- _2025_ &nbsp; Yuanpei Young Scholar (10 annual recipients)
-- _2025_ &nbsp; Beijing Natural Science Foundation Undergraduate _QiYan_ Research Program (Sole recipient in the cohort)
-- _2025_ &nbsp; Soong Ching Ling Future Scholarship (national undergraduate scholarship)
-- _2024_ &nbsp; Peking University Boya Scholarship
-- _2024_ &nbsp; Peking University Academic Excellence Award, Social Service Award
-- _2023_ &nbsp; Peking University Freshman Scholarship (First Prize)
-- _2023_ &nbsp; Ranked 1st in Fujian Province, National College Entrance Exam (Science)
+<article class="company-release">
+<div class="release-heading"><h3><a href="https://finance.sina.com.cn/meeting/2026-06-14/doc-inicnpyv4990482.shtml">Physis-v0.1</a></h3><time datetime="2026-06">2026.06</time></div>
+<p>Physis AI’s world foundation model for learning physical dynamics and predicting state transitions conditioned on actions.</p>
+<div class="release-links"><a href="https://finance.sina.com.cn/meeting/2026-06-14/doc-inicnpyv4990482.shtml">announcement</a></div>
+</article>
+
+<article class="company-release">
+<div class="release-heading"><h3><a href="https://physis-ai.com/blog/physisserve/en">PhysisServe</a></h3><time datetime="2026-10">2026.10</time></div>
+<p>An open-source inference framework developed by the Physis AI Infra team, with pipelining across denoising steps and Transformer blocks.</p>
+<div class="release-links"><a href="https://physis-ai.com/blog/physisserve/en">technical report</a><span aria-hidden="true">/</span><a href="https://github.com/Physis-AI/PhysisServe">code</a></div>
+</article>
 
 ## Selected Publications
 
@@ -52,26 +55,38 @@ My research focuses on **trustworthy multimodal AI** and **world models that tru
 {% bibliography --query @*[selected=true] %}
 </div>
 
-## Experiences
+<details class="more-papers">
+<summary>More publications</summary>
+<div class="publications">
+{% bibliography --query @*[selected=false] %}
+</div>
+</details>
 
-<div class="experience-item" style="margin-bottom: 1rem;">
-<strong>Physis AI (逆矩阵科技)</strong> · Research Scientist · <em>2026.02 – Present</em><br>
-Building world foundation models that truly understand physics.
+## Selected Honors
+
+- _2026_ &nbsp; <strong class="distinction">SenseTime Scholarship</strong> · 30 recipients nationwide
+- _2025_ &nbsp; **Yuanpei Young Scholar**, Peking University · 10 selected annually
+- _2025_ &nbsp; **QiYan Undergraduate Research Grant**, Beijing Natural Science Foundation · Sole recipient among PKU AI undergraduates admitted in 2023
+- _2025_ &nbsp; **Soong Ching Ling Future Scholarship**
+- _2023_ &nbsp; <strong class="distinction">1st in Fujian Province</strong>, National College Entrance Examination (Physics Track)
+
+## Experience
+
+<div class="experience-item">
+<div class="experience-heading"><h3><a href="https://physis-ai.com/">Physis AI</a><span> · Partner</span></h3><time>2026.02 – Present</time></div>
 </div>
 
-<div class="experience-item" style="margin-bottom: 1rem;">
-<strong>PKU-Alignment Group, Peking University</strong> · Research Intern · <em>2024.12 – Present</em><br>
-<ul>
-<li> Core contributor to <a href="https://github.com/PKU-Alignment/align-anything">Align-Anything</a> (4k+ ★): All-modality alignment framework</li>
-<li> Core contributor to <a href="https://github.com/PKU-Alignment/eval-anything">Eval-Anything</a>: All-modality safety evaluation framework</li>
-</ul>
+<div class="experience-item">
+<div class="experience-heading"><h3>PKU Alignment Group<span> · Researcher</span></h3><time>2024.12 – 2026.01</time></div>
+<p>Core contributor and maintainer of <a href="https://github.com/PKU-Alignment/align-anything">Align-Anything</a>, a multimodal post-training framework, and <a href="https://github.com/PKU-Alignment/eval-anything">Eval-Anything</a>, a multimodal evaluation harness.</p>
 </div>
 
-<div class="experience-item" style="margin-bottom: 1rem;">
-<strong>HKGAI R&D Center / HKUST</strong> · Research Intern · <em>2024.12 – 2025.03</em><br>
-Contributed to <strong>HKGAI-V1</strong>, the Hong Kong government's first locally fine-tuned generative AI model, focusing on safety alignment for Cantonese, Mandarin, and English.
+<div class="experience-item">
+<div class="experience-heading"><h3>HKGAI / HKUST<span> · Researcher</span></h3><time>2024.12 – 2025.03</time></div>
+<p>Contributed to training <a href="https://arxiv.org/abs/2507.11502">HKGAI-V1</a>, a multilingual large language model tailored to Hong Kong, and received a letter of acknowledgement from the Hong Kong Generative AI R&D Center.</p>
 </div>
 
-## Educations
-
-- _2023 - Present_ &nbsp; B.S. in Artificial Intelligence, Yuanpei College, Peking University
+<div class="experience-item education-entry">
+<div class="experience-heading"><h3>Peking University<span> · Undergraduate</span></h3><time>2023 – Present</time></div>
+<p>Artificial Intelligence, Yuanpei College.</p>
+</div>

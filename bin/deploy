@@ -94,6 +94,7 @@ export JEKYLL_ENV=production
 
 # Build site
 bundle exec jekyll build
+python3 bin/build_homepage.py --output _site
 
 # Purge unused css
 purgecss -c purgecss.config.js
