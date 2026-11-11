@@ -14,6 +14,7 @@
 \usepackage[margin=1.6cm, top=1.4cm, bottom=1.4cm]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
+\usepackage{needspace}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{fontawesome5}
@@ -39,6 +40,8 @@
 
 % No page numbers
 \pagestyle{empty}
+\clubpenalty=10000
+\widowpenalty=10000
 
 % Compact lists
 \setlist[itemize]{leftmargin=1.5em, itemsep=1pt, topsep=2pt, parsep=0pt}
@@ -55,6 +58,7 @@
 
 % Generic entry: left bold + right info
 \newcommand{\cventry}[2]{%
+  \Needspace{4\baselineskip}%
   \noindent\begin{tabularx}{\textwidth}{@{}X r@{}}
     \textbf{#1} & {#2} \\
   \end{tabularx}\vspace{-2pt}%
@@ -132,7 +136,6 @@ Boyuan Chen*, \me{}*, Jiaming Ji*, \ldots, Yaodong Yang\textsuperscript{\dag}, T
 \end{itemize}
 
 % ============================================================================
-\newpage
 \section{科研经历}
 
 \cventry{逆矩阵科技（Physis AI）}{2026.02\,--\,至今}
